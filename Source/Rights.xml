@@ -39,7 +39,7 @@
         <PublicRight val="Y"/>
         <Key val="Legal_Pac"/>
       </Right>
-      <Right id="10" name="Access  Parameter Maint.">
+      <Right id="10" name="Access  Parameter Maint">
         <PublicRight val="Y"/>
         <Key val="PARAM"/>
       </Right>
