@@ -1,0 +1,349 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="12000"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="327"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="%LPAplFile%clparm" Resident="N" data_source="Default Database" id="1" name="Cl Parameters" offset="212" length="167943"/> 
+<DataObject PhysicalName="%LPAplFile%clmast" Resident="N" data_source="Default Database" id="2" name="Matter Master" offset="168156" length="68184"/> 
+<DataObject PhysicalName="%LPAplFile%clidmst" Resident="N" data_source="Default Database" id="3" name="Consol ID in Clmast" offset="236341" length="3727"/> 
+<DataObject PhysicalName="%LPAplFile%Clbbal" Resident="N" data_source="Default Database" id="4" name="Matter Bank Distr" offset="240069" length="4508"/> 
+<DataObject PhysicalName="%LPAplFile%Clfanl" Resident="N" data_source="Default Database" id="5" name="Matter Fees Distr" offset="244578" length="4393"/> 
+<DataObject PhysicalName="%LPAplFile%Clsanl" Resident="N" data_source="Default Database" id="6" name="Email Content" offset="248972" length="5255"/> 
+<DataObject PhysicalName="%LPAplFile%cltrno" Resident="N" data_source="Default Database" id="7" name="Current Office Tranx" offset="254228" length="78878"/> 
+<DataObject PhysicalName="%LPAplFile%cltrnc" Resident="N" data_source="Default Database" id="8" name="Current Clients Tranx" offset="333107" length="77019"/> 
+<DataObject PhysicalName="%LPAplFile%cxtrno" Resident="N" data_source="Default Database" id="9" name="History -Office Tranx" offset="410127" length="61765"/> 
+<DataObject PhysicalName="%LPAplFile%cxtrnc" Resident="N" data_source="Default Database" id="10" name="History -Clients Tranx" offset="471893" length="63559"/> 
+<DataObject PhysicalName="%LPAplFile%cltran" Resident="N" data_source="Default Database" id="11" name="Combine Off&amp;Cl Tranx Work" offset="535453" length="57028"/> 
+<DataObject PhysicalName="%LPAplFile%crparm" Resident="N" data_source="Default Database" id="12" name="Cr Parameters" offset="592482" length="61238"/> 
+<DataObject PhysicalName="%LPAplFile%crmast" Resident="N" data_source="Default Database" id="13" name="Clients Master" offset="653721" length="46372"/> 
+<DataObject PhysicalName="%LPAplFile%craddr" Resident="N" data_source="Default Database" id="14" name="Clients Address" offset="700094" length="20360"/> 
+<DataObject PhysicalName="%LPAplFile%cltabl" Resident="N" data_source="Default Database" id="15" name="Table Codes File" offset="720455" length="10754"/> 
+<DataObject PhysicalName="%LPAplFile%clbank" Resident="N" data_source="Default Database" id="16" name="Office/Client Bank Table" offset="731210" length="12485"/> 
+<DataObject PhysicalName="%LPAplFile%clseqn" Resident="N" data_source="Default Database" id="17" name="Auto No Range Table" offset="743696" length="6644"/> 
+<DataObject PhysicalName="%LPAplFile%clmfbf" Resident="N" data_source="Default Database" id="18" name="Balance B/F" offset="750341" length="4383"/> 
+<DataObject PhysicalName="%LPAplFile%cdcode" Resident="N" data_source="Default Database" id="19" name="Disbursement Table" offset="754725" length="12344"/> 
+<DataObject PhysicalName="%LPAplFile%clsttb" Resident="N" data_source="Default Database" id="20" name="Case Type Table" offset="767070" length="15202"/> 
+<DataObject PhysicalName="%LPAplFile%clproc" Resident="N" data_source="Default Database" id="21" name="Ext. Type/ Procedure Table" offset="782273" length="8152"/> 
+<DataObject PhysicalName="%LPAplFile%cloprn" Resident="N" data_source="Default Database" id="22" name="Operations Code Table" offset="790426" length="5277"/> 
+<DataObject PhysicalName="%LPAplFile%cltidx" Resident="N" data_source="Default Database" id="23" name="Bill Solc Analysis to Cltrno" offset="795704" length="17055"/> 
+<DataObject PhysicalName="%LPAplFile%clbudg" Resident="N" data_source="Default Database" id="24" name="Cost Centre Master" offset="812760" length="43704"/> 
+<DataObject PhysicalName="%LPAplFile%Cltcbg" Resident="N" data_source="Default Database" id="25" name="TC-Monthly Budget" offset="856465" length="5038"/> 
+<DataObject PhysicalName="%LPAplFile%clindf" Resident="N" data_source="Default Database" id="26" name="Industry Fees Analysis File" offset="861504" length="10618"/> 
+<DataObject PhysicalName="%LPAplFile%clindw" Resident="N" data_source="Default Database" id="27" name="Industry Analysis Work" offset="872123" length="14237"/> 
+<DataObject PhysicalName="%LPAplFile%clindm" Resident="N" data_source="Default Database" id="28" name="Industry Analysis by Month" offset="886361" length="10911"/> 
+<DataObject PhysicalName="%LPAplFile%clindn" Resident="N" data_source="Default Database" id="29" name="Industry Anal Count-By Client" offset="897273" length="9746"/> 
+<DataObject PhysicalName="%LPAplFile%clexsolc" Resident="N" data_source="Default Database" id="30" name="Past Handlers Log File" offset="907020" length="5279"/> 
+<DataObject PhysicalName="%LPAplFile%lpaudit" Resident="N" data_source="Default Database" id="31" name="LP Audit Trail Log File" offset="912300" length="14296"/> 
+<DataObject PhysicalName="%LPAplFile%clilog" Resident="N" data_source="Default Database" id="32" name="Instruction Log File" offset="926597" length="7707"/> 
+<DataObject PhysicalName="%LPAplFile%clintr" Resident="N" data_source="Default Database" id="33" name="Instructor Table" offset="934305" length="9207"/> 
+<DataObject PhysicalName="%LPAplFile%clnote" Resident="N" data_source="Default Database" id="34" name="Clients Instr Note" offset="943513" length="12087"/> 
+<DataObject PhysicalName="%LPAplFile%clspad" Resident="N" data_source="Default Database" id="35" name="Solicitors Instr Note" offset="955601" length="12083"/> 
+<DataObject PhysicalName="%LPAplFile%cmcode" Resident="N" data_source="Default Database" id="36" name="Bank Officer Table - not used?" offset="967685" length="4198"/> 
+<DataObject PhysicalName="%LPAplFile%clcmmf" Resident="N" data_source="Default Database" id="37" name="CM Master" offset="971884" length="84271"/> 
+<DataObject PhysicalName="%LPAplFile%clcmtf" Resident="N" data_source="Default Database" id="38" name="CM Detail" offset="1056156" length="75403"/> 
+<DataObject PhysicalName="%LPAplFile%cltwrk" Resident="N" data_source="Default Database" id="39" name="Bill Time Cost Attachment" offset="1131560" length="8589"/> 
+<DataObject PhysicalName="%LPAplFile%cltmwork" Resident="N" data_source="Default Database" id="40" name="Key Index to CM Detail" offset="1140150" length="18699"/> 
+<DataObject PhysicalName="%LPAplFile%clcmtf.exp" Resident="N" data_source="Default Database" id="41" name="CM Detail - Export/Import" offset="1158850" length="45354"/> 
+<DataObject PhysicalName="%LPAplFile%clcmtf.bck" Resident="N" data_source="Default Database" id="42" name="CM Detail - Bk Import" offset="1204205" length="45421"/> 
+<DataObject PhysicalName="%LPAplFile%clhfmf" Resident="N" data_source="Default Database" id="43" name="CM History Mast" offset="1249627" length="81085"/> 
+<DataObject PhysicalName="%LPAplFile%clhftf" Resident="N" data_source="Default Database" id="44" name="CM History Detl" offset="1330713" length="47699"/> 
+<DataObject PhysicalName="%LPAplFile%cmwork" Resident="N" data_source="Default Database" id="45" name="CM Detail Reorg Work" offset="1378413" length="52187"/> 
+<DataObject PhysicalName="%LPAplFile%clpseq" Resident="N" data_source="Default Database" id="46" name="Group Print Seq." offset="1430601" length="4177"/> 
+<DataObject PhysicalName="%LPAplFile%cltime" Resident="N" data_source="Default Database" id="47" name="On-line Time Clock Log" offset="1434779" length="14629"/> 
+<DataObject PhysicalName="%LPAplFile%cxmast" Resident="N" data_source="Default Database" id="48" name="History Master" offset="1449409" length="55769"/> 
+<DataObject PhysicalName="%LPAplFile%cxidmst" Resident="N" data_source="Default Database" id="49" name="Consol ID in Cxmast" offset="1505179" length="3295"/> 
+<DataObject PhysicalName="%LPAplFile%crcorp" Resident="N" data_source="Default Database" id="50" name="Corp Secretarial - not used?" offset="1508475" length="37316"/> 
+<DataObject PhysicalName="%LPAplFile%crprty" Resident="N" data_source="Default Database" id="51" name="Contact Names Master" offset="1545792" length="48776"/> 
+<DataObject PhysicalName="%LPAplFile%clbill" Resident="N" data_source="Default Database" id="52" name="Billing Summary Stats **" offset="1594569" length="9587"/> 
+<DataObject PhysicalName="%LPAplFile%clbill.gen" Resident="N" data_source="Default Database" id="53" name="Billing Summary Stats(Gen)" offset="1604157" length="8693"/> 
+<DataObject PhysicalName="%LPAplFile%clcase" Resident="N" data_source="Default Database" id="54" name="Case Summary Stats" offset="1612851" length="11594"/> 
+<DataObject PhysicalName="%LPAplFile%clcase.gen" Resident="N" data_source="Default Database" id="55" name="Case Summary Stats(Gen)" offset="1624446" length="11606"/> 
+<DataObject PhysicalName="%LPAplFile%clsale" Resident="N" data_source="Default Database" id="56" name="Sales Summary Stats" offset="1636053" length="11598"/> 
+<DataObject PhysicalName="%LPAplFile%clsale.gen" Resident="N" data_source="Default Database" id="57" name="Sales Summary Stats(Gen)" offset="1647652" length="11607"/> 
+<DataObject PhysicalName="%LPAplFile%clstat.wrk" Resident="N" data_source="Default Database" id="58" name="Stats Work File" offset="1659260" length="12240"/> 
+<DataObject PhysicalName="%LPAplFile%crrecp" Resident="N" data_source="Default Database" id="59" name="Receipt Alloc (Crrecp)" offset="1671501" length="11158"/> 
+<DataObject PhysicalName="%LPAplFile%glmast" Resident="N" data_source="Default Database" id="60" name="GL Master" offset="1682660" length="22564"/> 
+<DataObject PhysicalName="%LPAplFile%glform" Resident="N" data_source="Default Database" id="61" name="GL Description Table" offset="1705225" length="3096"/> 
+<DataObject PhysicalName="%LPAplFile%ciswrk" Resident="N" data_source="Default Database" id="62" name="Conflict Work File" offset="1708322" length="14432"/> 
+<DataObject PhysicalName="%LPAplFile%glbudg" Resident="N" data_source="Default Database" id="63" name="GL Budget" offset="1722755" length="13508"/> 
+<DataObject PhysicalName="%LPAplFile%apparm" Resident="N" data_source="Default Database" id="64" name="AP Parameter" offset="1736264" length="72696"/> 
+<DataObject PhysicalName="%LPAplFile%syuser" Resident="N" data_source="Default Database" id="65" name="SYUSER" offset="1808961" length="152032"/> 
+<DataObject PhysicalName="%LPAplFile%gltran" Resident="N" data_source="Default Database" id="66" name="GL Transaction" offset="1960994" length="30148"/> 
+<DataObject PhysicalName="%LPAplFile%glcash" Resident="N" data_source="Default Database" id="67" name="GL Petty Cash File" offset="1991143" length="6315"/> 
+<DataObject PhysicalName="%LPAplFile%glfmst" Resident="N" data_source="Default Database" id="68" name="GL Foreign Cur Mastr" offset="1997459" length="26546"/> 
+<DataObject PhysicalName="%LPAplFile%glcpbu" Resident="N" data_source="Default Database" id="69" name="GL Collect/Pymt Budg" offset="2024006" length="20157"/> 
+<DataObject PhysicalName="%LPAplFile%glgtab" Resident="N" data_source="Default Database" id="70" name="GL Report Table" offset="2044164" length="16409"/> 
+<DataObject PhysicalName="%LPAplFile%gsparm" Resident="N" data_source="Default Database" id="71" name="GST Parameters" offset="2060574" length="39161"/> 
+<DataObject PhysicalName="%LPAplFile%gsrate" Resident="N" data_source="Default Database" id="72" name="GST Rates Table" offset="2099736" length="5349"/> 
+<DataObject PhysicalName="%LPAplFile%gstreg" Resident="N" data_source="Default Database" id="73" name="GST Register" offset="2105086" length="26305"/> 
+<DataObject PhysicalName="%LPCLFIRM%CLFIRM" Resident="N" data_source="Default Database" id="74" name="Firm/Installatn Dir" offset="2131392" length="7485"/> 
+<DataObject PhysicalName="%LPAplFile%apmast" Resident="N" data_source="Default Database" id="75" name="AP Master" offset="2138878" length="29544"/> 
+<DataObject PhysicalName="%LPAplFile%aptran" Resident="N" data_source="Default Database" id="76" name="AP Transaction File" offset="2168423" length="21995"/> 
+<DataObject PhysicalName="%LPAplFile%apcust" Resident="N" data_source="Default Database" id="77" name="AP Ext Name/Address" offset="2190419" length="9670"/> 
+<DataObject PhysicalName="%LPAplFile%appaym" Resident="N" data_source="Default Database" id="78" name="AP Latest Payment File" offset="2200090" length="19275"/> 
+<DataObject PhysicalName="%LPAplFile%clpbhr" Resident="N" data_source="Default Database" id="79" name="Bill Table Header" offset="2219366" length="18166"/> 
+<DataObject PhysicalName="%LPAplFile%clpbdl" Resident="N" data_source="Default Database" id="80" name="Bill Doc Details" offset="2237533" length="31967"/> 
+<DataObject PhysicalName="%LPAplFile%clpphr" Resident="N" data_source="Default Database" id="81" name="PV Table Header" offset="2269501" length="23160"/> 
+<DataObject PhysicalName="%LPAplFile%clppdl" Resident="N" data_source="Default Database" id="82" name="PV Doc Header" offset="2292662" length="37649"/> 
+<DataObject PhysicalName="%LPAplFile%clppln" Resident="N" data_source="Default Database" id="83" name="PV Doc Details" offset="2330312" length="28128"/> 
+<DataObject PhysicalName="%LPAplFile%clpchr" Resident="N" data_source="Default Database" id="84" name="CN Table Header" offset="2358441" length="18156"/> 
+<DataObject PhysicalName="%LPAplFile%clpcdl" Resident="N" data_source="Default Database" id="85" name="CN Doc Details" offset="2376598" length="23758"/> 
+<DataObject PhysicalName="%LPAplFile%clprhr" Resident="N" data_source="Default Database" id="86" name="RC Table Header" offset="2400357" length="20908"/> 
+<DataObject PhysicalName="%LPAplFile%clprdl" Resident="N" data_source="Default Database" id="87" name="RC Doc Header" offset="2421266" length="30917"/> 
+<DataObject PhysicalName="%LPAplFile%clprln" Resident="N" data_source="Default Database" id="88" name="RC Doc Details" offset="2452184" length="18919"/> 
+<DataObject PhysicalName="%LPAplFile%clpfee" Resident="N" data_source="Default Database" id="89" name="Posting Fees Analysis" offset="2471104" length="8634"/> 
+<DataObject PhysicalName="%LPAplFile%clallc" Resident="N" data_source="Default Database" id="90" name="Posting Alloc Analysis" offset="2479739" length="9508"/> 
+<DataObject PhysicalName="%LPAplFile%clexsolc" Resident="N" data_source="Default Database" id="91" name="Past Handlers Log (PPD Chk)" offset="2489248" length="5689"/> 
+<DataObject PhysicalName="%LPAplFile%clajidxw" Resident="N" data_source="Default Database" id="92" name="Auto-Jnl Index Work" offset="2494938" length="2468"/> 
+<DataObject PhysicalName="%LPAplFile%cupbhr" Resident="N" data_source="Default Database" id="93" name="xBill Table Header  (Upd)" offset="2497407" length="17076"/> 
+<DataObject PhysicalName="%LPAplFile%cupbdl" Resident="N" data_source="Default Database" id="94" name="xBill Doc Details     (Upd)*" offset="2514484" length="31391"/> 
+<DataObject PhysicalName="%LPAplFile%cupphr" Resident="N" data_source="Default Database" id="95" name="xPV Table Header  (Upd)" offset="2545876" length="22073"/> 
+<DataObject PhysicalName="%LPAplFile%cuppdl" Resident="N" data_source="Default Database" id="96" name="xPV Doc Header     (Upd)" offset="2567950" length="37259"/> 
+<DataObject PhysicalName="%LPAplFile%cuppln" Resident="N" data_source="Default Database" id="97" name="xPV Doc Details      (Upd)*" offset="2605210" length="28165"/> 
+<DataObject PhysicalName="%LPAplFile%cupchr" Resident="N" data_source="Default Database" id="98" name="xCN Table Header (Upd)" offset="2633376" length="17069"/> 
+<DataObject PhysicalName="%LPAplFile%cupcdl" Resident="N" data_source="Default Database" id="99" name="xCN Doc Details     (Upd)*" offset="2650446" length="19609"/> 
+<DataObject PhysicalName="%LPAplFile%cuprhr" Resident="N" data_source="Default Database" id="100" name="xRC Table Header (Upd)" offset="2670056" length="19822"/> 
+<DataObject PhysicalName="%LPAplFile%cuprdl" Resident="N" data_source="Default Database" id="101" name="xRC Doc Header    (Upd)" offset="2689879" length="29822"/> 
+<DataObject PhysicalName="%LPAplFile%cuprln" Resident="N" data_source="Default Database" id="102" name="xRC Doc Details    (Upd)" offset="2719702" length="19559"/> 
+<DataObject PhysicalName="%LPAplFile%cupfee" Resident="N" data_source="Default Database" id="103" name="xPosting-Fees Analy (Upd)" offset="2739262" length="8635"/> 
+<DataObject PhysicalName="%LPAplFile%cuallc" Resident="N" data_source="Default Database" id="104" name="xPosting Alloc Analysis(Upd)" offset="2747898" length="9515"/> 
+<DataObject PhysicalName="%LPAplFile%cusfee" Resident="N" data_source="Default Database" id="105" name="xPosting Sub-fees Analy (Upd)" offset="2757414" length="8639"/> 
+<DataObject PhysicalName="%LPAplFile%clpvwrk" Resident="N" data_source="Default Database" id="106" name="PV Doc Details (AutoGen)" offset="2766054" length="23320"/> 
+<DataObject PhysicalName="%LPAplFile%clrcwrk" Resident="N" data_source="Default Database" id="107" name="RC Doc Details(AutoGen)" offset="2789375" length="18493"/> 
+<DataObject PhysicalName="%LPAplFile%clpwrk" Resident="N" data_source="Default Database" id="108" name="Posting Table Work" offset="2807869" length="13010"/> 
+<DataObject PhysicalName="%LPAplFile%clobnk" Resident="N" data_source="Default Database" id="109" name="On-line Bank Bal Work" offset="2820880" length="5443"/> 
+<DataObject PhysicalName="%LPAplFile%clbmov" Resident="N" data_source="Default Database" id="110" name="On-line Bank Move Work" offset="2826324" length="11382"/> 
+<DataObject PhysicalName="%LPAplFile%clowork" Resident="N" data_source="Default Database" id="111" name="On-line Table Tranx Work" offset="2837707" length="15692"/> 
+<DataObject PhysicalName="%LPAplFile%glexch" Resident="N" data_source="Default Database" id="112" name="Exch Rate Table" offset="2853400" length="7666"/> 
+<DataObject PhysicalName="%LPAplFile%ocdwrk1" Resident="N" data_source="Default Database" id="113" name="A/c Summary WrkFil" offset="2861067" length="13769"/> 
+<DataObject PhysicalName="%LPAplFile%ocdwrkcl" Resident="N" data_source="Default Database" id="114" name="Client A/c Disb Sumry Work" offset="2874837" length="6362"/> 
+<DataObject PhysicalName="%LPAplFile%glwork2" Resident="N" data_source="Default Database" id="115" name="GL Summary Work" offset="2881200" length="10413"/> 
+<DataObject PhysicalName="%LPAplFile%clauto2" Resident="N" data_source="Default Database" id="116" name="Auto-Jnl Work GL Sumry" offset="2891614" length="9589"/> 
+<DataObject PhysicalName="%LPAplFile%cldend" Resident="N" data_source="Default Database" id="117" name="Day-End Work Sumry By Bill#" offset="2901204" length="16335"/> 
+<DataObject PhysicalName="%LPAplFile%clfend" Resident="N" data_source="Default Database" id="118" name="Day-End Solc Analysis Work" offset="2917540" length="6095"/> 
+<DataObject PhysicalName="%LPAplFile%clstsol" Resident="N" data_source="Default Database" id="119" name="Case Stats -Prtn/Solc (W)" offset="2923636" length="11927"/> 
+<DataObject PhysicalName="%LPAplFile%clttype" Resident="N" data_source="Default Database" id="120" name="Case Stats -C/Type (W)" offset="2935564" length="4462"/> 
+<DataObject PhysicalName="%LPAplFile%cltmthly" Resident="N" data_source="Default Database" id="121" name="Case Stats -Monthly (W)" offset="2940027" length="19089"/> 
+<DataObject PhysicalName="%LPAplFile%cltoprn" Resident="N" data_source="Default Database" id="122" name="Case Stats -Code (W)" offset="2959117" length="6673"/> 
+<DataObject PhysicalName="%LPAplFile%Clwrk3" Resident="N" data_source="Default Database" id="123" name="Table Entry Work3" offset="2965791" length="9796"/> 
+<DataObject PhysicalName="%LPAplFile%cdswrk" Resident="N" data_source="Default Database" id="124" name="Dept Bills Analysis Work" offset="2975588" length="16339"/> 
+<DataObject PhysicalName="%LPAplFile%cdswk1" Resident="N" data_source="Default Database" id="125" name="Online Bill/CN Work (By Doc)" offset="2991928" length="18392"/> 
+<DataObject PhysicalName="%LPAplFile%Clbilwrk" Resident="N" data_source="Default Database" id="126" name="Total Fees Billed Work" offset="3010321" length="22107"/> 
+<DataObject PhysicalName="%LPAplFile%clwork" Resident="N" data_source="Default Database" id="127" name="TC Solc/Table Code Work" offset="3032429" length="14067"/> 
+<DataObject PhysicalName="%LPAplFile%clwopn" Resident="N" data_source="Default Database" id="128" name="TC Operations Code Work" offset="3046497" length="10162"/> 
+<DataObject PhysicalName="%LPAplFile%cldept" Resident="N" data_source="Default Database" id="129" name="TC File Summary Work" offset="3056660" length="10687"/> 
+<DataObject PhysicalName="%LPAplFile%Clwrk5" Resident="N" data_source="Default Database" id="130" name="C/C Summary Work5" offset="3067348" length="6963"/> 
+<DataObject PhysicalName="%LPAplFile%clfeal" Resident="N" data_source="Default Database" id="131" name="Fees Allocation Work" offset="3074312" length="7178"/> 
+<DataObject PhysicalName="%LPAplFile%clsolf" Resident="N" data_source="Default Database" id="132" name="Fees Alloc-Solc Sumry Work" offset="3081491" length="5238"/> 
+<DataObject PhysicalName="%LPAplFile%clsolo" Resident="N" data_source="Default Database" id="133" name="Fees Alloc From Others Work" offset="3086730" length="6940"/> 
+<DataObject PhysicalName="%LPAplFile%clbdue" Resident="N" data_source="Default Database" id="134" name="M'sia-Bills Overdue" offset="3093671" length="17063"/> 
+<DataObject PhysicalName="%LPAplFile%glphdr" Resident="N" data_source="Default Database" id="135" name="GL Table Header" offset="3110735" length="15733"/> 
+<DataObject PhysicalName="%LPAplFile%glpdtl" Resident="N" data_source="Default Database" id="136" name="GL Table Details" offset="3126469" length="22371"/> 
+<DataObject PhysicalName="%LPAplFile%gluhdr" Resident="N" data_source="Default Database" id="137" name="GL Table Header - Updated" offset="3148841" length="15743"/> 
+<DataObject PhysicalName="%LPAplFile%gludtl" Resident="N" data_source="Default Database" id="138" name="GL Table Details - Updated" offset="3164585" length="22378"/> 
+<DataObject PhysicalName="%LPAplFile%glrhdr" Resident="N" data_source="Default Database" id="139" name="Report Table" offset="3186964" length="14366"/> 
+<DataObject PhysicalName="%LPAplFile%glrdtl" Resident="N" data_source="Default Database" id="140" name="Report Details" offset="3201331" length="11187"/> 
+<DataObject PhysicalName="%LPAplFile%glrgen" Resident="N" data_source="Default Database" id="141" name="Report Generated File" offset="3212519" length="64088"/> 
+<DataObject PhysicalName="%LPAplFile%glrgenw" Resident="N" data_source="Default Database" id="142" name="Report Generated File -Win" offset="3276608" length="64094"/> 
+<DataObject PhysicalName="%LPAplFile%armast" Resident="N" data_source="Default Database" id="143" name="AR Master" offset="3340703" length="32095"/> 
+<DataObject PhysicalName="%LPAplFile%cdtblfee" Resident="N" data_source="Default Database" id="144" name="Fees Distribution Table" offset="3372799" length="5414"/> 
+<DataObject PhysicalName="%LPAplFile%cdfeesol" Resident="N" data_source="Default Database" id="145" name="Fees By Solicitor" offset="3378214" length="7811"/> 
+<DataObject PhysicalName="%CDFEEW%" Resident="N" data_source="Default Database" id="146" name="Fee Sharing Work File" offset="3386026" length="7804"/> 
+<DataObject PhysicalName="%LPAplFile%cdcsttbl" Resident="N" data_source="Default Database" id="147" name="Standard Cost Table" offset="3393831" length="7245"/> 
+<DataObject PhysicalName="%LPAplFile%cdtxttbl" Resident="N" data_source="Default Database" id="148" name="Standard Text Table" offset="3401077" length="3150"/> 
+<DataObject PhysicalName="%CDTxtA%" Resident="N" data_source="Default Database" id="149" name="Entry Text Array" offset="3404228" length="5537"/> 
+<DataObject PhysicalName="%CDImpA%" Resident="N" data_source="Default Database" id="150" name="Entry Import Array" offset="3409766" length="13800"/> 
+<DataObject PhysicalName="%CDWHDR%" Resident="N" data_source="Default Database" id="151" name="Document Work Header" offset="3423567" length="55618"/> 
+<DataObject PhysicalName="%CDWDTL%" Resident="N" data_source="Default Database" id="152" name="Document Work Detail" offset="3479186" length="30109"/> 
+<DataObject PhysicalName="%LPAplFile%cdinvhdr" Resident="N" data_source="Default Database" id="153" name="Bill Header" offset="3509296" length="59762"/> 
+<DataObject PhysicalName="%LPAplFile%cdinvdtl" Resident="N" data_source="Default Database" id="154" name="Bill Detail" offset="3569059" length="30489"/> 
+<DataObject PhysicalName="%LPAplFile%cdcnhdr" Resident="N" data_source="Default Database" id="155" name="Credit Note Header" offset="3599549" length="58656"/> 
+<DataObject PhysicalName="%LPAplFile%cdcndtl" Resident="N" data_source="Default Database" id="156" name="Credit Note Detail" offset="3658206" length="30496"/> 
+<DataObject PhysicalName="%LPAplFile%cddrfhdr" Resident="N" data_source="Default Database" id="157" name="Draft Bill Header" offset="3688703" length="58665"/> 
+<DataObject PhysicalName="%LPAplFile%cddrfdtl" Resident="N" data_source="Default Database" id="158" name="Draft Bill Detail" offset="3747369" length="30494"/> 
+<DataObject PhysicalName="%LPAplFile%cddcnhdr" Resident="N" data_source="Default Database" id="159" name="Draft Credit Note Header" offset="3777864" length="58674"/> 
+<DataObject PhysicalName="%LPAplFile%cddcndtl" Resident="N" data_source="Default Database" id="160" name="Draft Credit Note Detail" offset="3836539" length="30494"/> 
+<DataObject PhysicalName="%LPAplFile%cdprparm" Resident="N" data_source="Default Database" id="161" name="Bill System Print Parameters" offset="3867034" length="19903"/> 
+<DataObject PhysicalName="%LPCLFIRM%cdatrtbl.new" Resident="N" data_source="Default Database" id="162" name="Data Pick List" offset="3886938" length="5408"/> 
+<DataObject PhysicalName="%CDDsbR%" Resident="N" data_source="Default Database" id="163" name="Disbursement Table" offset="3892347" length="12336"/> 
+<DataObject PhysicalName="%CDADIT%" Resident="N" data_source="Default Database" id="164" name="T/C Audit Trail Work File" offset="3904684" length="22632"/> 
+<DataObject PhysicalName="%LPAplFile%cdrnote" Resident="N" data_source="Default Database" id="165" name="Billing Foot Notes" offset="3927317" length="4387"/> 
+<DataObject PhysicalName="%LPAplFile%crwork" Resident="N" data_source="Default Database" id="166" name="Client Ranking Table" offset="3931705" length="6257"/> 
+<DataObject PhysicalName="%LPAplFile%Cltabu" Resident="N" data_source="Default Database" id="167" name="Batched Table to Update" offset="3937963" length="5712"/> 
+<DataObject PhysicalName="%LPAplFile%Clswork2" Resident="N" data_source="Default Database" id="168" name="CL Statistics Work File" offset="3943676" length="41989"/> 
+<DataObject PhysicalName="%LPAplFile%crbwrk" Resident="N" data_source="Default Database" id="169" name="List Bill Work File" offset="3985666" length="10104"/> 
+<DataObject PhysicalName="%LPAplFile%clplib" Resident="N" data_source="Default Database" id="170" name="Precedent Libr Mastr" offset="3995771" length="41061"/> 
+<DataObject PhysicalName="%LPAplFile%Clefile" Resident="N" data_source="Default Database" id="171" name="Data Export File Definition" offset="4036833" length="4263"/> 
+<DataObject PhysicalName="%LPAplFile%Clfield" Resident="N" data_source="Default Database" id="172" name="Data Export Field Definition" offset="4041097" length="7229"/> 
+<DataObject PhysicalName="%LPTmFile%tmmark" Resident="N" data_source="Default Database" id="173" name="T/M Profile Master" offset="4048327" length="16134"/> 
+<DataObject PhysicalName="%LPTmFile%tmowner" Resident="N" data_source="Default Database" id="174" name="TM Owner Master" offset="4064462" length="14277"/> 
+<DataObject PhysicalName="%LPTmFile%tmClassD" Resident="N" data_source="Default Database" id="175" name="T/M Class Description" offset="4078740" length="5479"/> 
+<DataObject PhysicalName="%LPTmFile%tmassoc" Resident="N" data_source="Default Database" id="176" name="TM Associate Profile" offset="4084220" length="14290"/> 
+<DataObject PhysicalName="%LPTmFile%tmappl" Resident="N" data_source="Default Database" id="177" name="TMA Record Master" offset="4098511" length="70388"/> 
+<DataObject PhysicalName="%LPTmFile%tmclass" Resident="N" data_source="Default Database" id="178" name="TMA / Class Extension" offset="4168900" length="4229"/> 
+<DataObject PhysicalName="%LPTmFile%tmrcond" Resident="N" data_source="Default Database" id="179" name="TM Footnote Extension" offset="4173130" length="5376"/> 
+<DataObject PhysicalName="%LPTmFile%tmruser" Resident="N" data_source="Default Database" id="180" name="TM Licensed User Master" offset="4178507" length="17554"/> 
+<DataObject PhysicalName="%LPTmFile%tmassign" Resident="N" data_source="Default Database" id="181" name="TM Assignment Master" offset="4196062" length="21996"/> 
+<DataObject PhysicalName="%LPTmFile%Tmhist" Resident="N" data_source="Default Database" id="182" name="TMA History Log File" offset="4218059" length="15915"/> 
+<DataObject PhysicalName="%LPTmFile%TmSubDate" Resident="N" data_source="Default Database" id="183" name="TMA Addn Subm Date" offset="4233975" length="7445"/> 
+<DataObject PhysicalName="%LPTmFile%tmSpecs" Resident="N" data_source="Default Database" id="184" name="TMA Specification of Goods" offset="4241421" length="6068"/> 
+<DataObject PhysicalName="%LPTmFile%tmMPList" Resident="N" data_source="Default Database" id="185" name="TMA Madrid Protocol List" offset="4247490" length="3040"/> 
+<DataObject PhysicalName="%LPTmFile%tmForms" Resident="N" data_source="Default Database" id="186" name="TM Print Forms Selection" offset="4250531" length="48989"/> 
+<DataObject PhysicalName="%LPTmFile%tmbill" Resident="N" data_source="Default Database" id="187" name="TM Billing Instruction" offset="4299521" length="9405"/> 
+<DataObject PhysicalName="%LPTmFile%tmremk" Resident="N" data_source="Default Database" id="188" name="TM General Remarks(Asgn/Lic)" offset="4308927" length="4835"/> 
+<DataObject PhysicalName="%LPTmFile%PctMast" Resident="N" data_source="Default Database" id="189" name="PCT Patent Master" offset="4313763" length="13954"/> 
+<DataObject PhysicalName="%LPTmFile%PctClassD" Resident="N" data_source="Default Database" id="190" name="PCT Class Description" offset="4327718" length="5484"/> 
+<DataObject PhysicalName="%LPTmFile%PctAppnt" Resident="N" data_source="Default Database" id="191" name="PCT Applicant Master" offset="4333203" length="16485"/> 
+<DataObject PhysicalName="%LPTmFile%PctInvent" Resident="N" data_source="Default Database" id="192" name="PCT Inventor Master" offset="4349689" length="16962"/> 
+<DataObject PhysicalName="%LPTmFile%PctRecord" Resident="N" data_source="Default Database" id="193" name="PCT Record Master" offset="4366652" length="45350"/> 
+<DataObject PhysicalName="%LPTmFile%Pctassign" Resident="N" data_source="Default Database" id="194" name="PCT Assignment Master **" offset="4412003" length="22004"/> 
+<DataObject PhysicalName="%LPTmFile%PctAplInv" Resident="N" data_source="Default Database" id="195" name="PCT Appln Inventors" offset="4434008" length="2845"/> 
+<DataObject PhysicalName="%LPTmFile%PctAplApn" Resident="N" data_source="Default Database" id="196" name="PCT Appln Applicants" offset="4436854" length="2847"/> 
+<DataObject PhysicalName="%LPTmFile%PctFnote" Resident="N" data_source="Default Database" id="197" name="PCT Footnote Extension" offset="4439702" length="5383"/> 
+<DataObject PhysicalName="%LPTmFile%PctPrior" Resident="N" data_source="Default Database" id="198" name="PCT Priority Dates" offset="4445086" length="7945"/> 
+<DataObject PhysicalName="%LPTmFile%PctStage" Resident="N" data_source="Default Database" id="199" name="PCT Stage of Deadline" offset="4453032" length="1964"/> 
+<DataObject PhysicalName="%LPTmFile%PctDateAct" Resident="N" data_source="Default Database" id="200" name="PCT Activity of Deadline" offset="4454997" length="2554"/> 
+<DataObject PhysicalName="%LPTmFile%PctDates" Resident="N" data_source="Default Database" id="201" name="PCT Deadline Dates" offset="4457552" length="7524"/> 
+<DataObject PhysicalName="%LPTmFile%PctHist" Resident="N" data_source="Default Database" id="202" name="PCT History Log File" offset="4465077" length="14838"/> 
+<DataObject PhysicalName="%LPTmFile%PctDueDate" Resident="N" data_source="Default Database" id="203" name="PCT Basis of Date Due" offset="4479916" length="6055"/> 
+<DataObject PhysicalName="%LPTmFile%PctConvList" Resident="N" data_source="Default Database" id="204" name="PCT Convention List" offset="4485972" length="3041"/> 
+<DataObject PhysicalName="%LPTmFile%PctDuewrk" Resident="N" data_source="Default Database" id="205" name="Due Date Print Work" offset="4489014" length="9935"/> 
+<DataObject PhysicalName="%LPAplFile%Clcdde" Resident="N" data_source="Default Database" id="206" name="DDE Commands" offset="4498950" length="10931"/> 
+<DataObject PhysicalName="%LPCLFIRM%WHERE.DAT" Resident="N" data_source="Default Database" id="207" name="WhereAbout" offset="4509882" length="6271"/> 
+<DataObject PhysicalName="%LPCLFIRM%termno" Resident="N" data_source="Default Database" id="208" name="Terminal No Control File" offset="4516154" length="4268"/> 
+<DataObject PhysicalName="%LPAplFile%appbhr" Resident="N" data_source="Default Database" id="209" name="AP Table Header" offset="4520423" length="19234"/> 
+<DataObject PhysicalName="%LPAplFile%appbdl" Resident="N" data_source="Default Database" id="210" name="AP Table Details" offset="4539658" length="28030"/> 
+<DataObject PhysicalName="%LPAplFile%cldelwk" Resident="N" data_source="Default Database" id="211" name="CL Del Entry Workfile" offset="4567689" length="5686"/> 
+<DataObject PhysicalName="%LPAplFile%clobnk2" Resident="N" data_source="Default Database" id="212" name="On-line Bank Bal Work2" offset="4573376" length="5445"/> 
+<DataObject PhysicalName="%LPAplFile%glwrk2" Resident="N" data_source="Default Database" id="213" name="GL Inquiry Work" offset="4578822" length="13306"/> 
+<DataObject PhysicalName="%LPAplFile%clcmtf.imp" Resident="N" data_source="Default Database" id="214" name="CM Detail TC (Prior Y2K)" offset="4592129" length="51369"/> 
+<DataObject PhysicalName="%LPAplFile%clhftf.old" Resident="N" data_source="Default Database" id="215" name="CM Detail-History(Tmp)" offset="4643499" length="46606"/> 
+<DataObject PhysicalName="%LPAplFile%crrecp.old" Resident="N" data_source="Default Database" id="216" name="Rec Alloc CRRECP-Old" offset="4690106" length="9951"/> 
+<DataObject PhysicalName="%LPAplFile%cdfeetbl" Resident="N" data_source="Default Database" id="217" name="Fee Distribution Table (Old)" offset="4700058" length="5455"/> 
+<DataObject PhysicalName="%LPAplFile%exword" Resident="N" data_source="Default Database" id="218" name="Exclude Word List (Key Index)" offset="4705514" length="2011"/> 
+<DataObject PhysicalName="%LPAplFile%Cindex" Resident="N" data_source="Default Database" id="219" name="Cis Key Word Index (CI)" offset="4707526" length="6933"/> 
+<DataObject PhysicalName="%LPAplFile%Cclass" Resident="N" data_source="Default Database" id="220" name="Class Table" offset="4714460" length="3085"/> 
+<DataObject PhysicalName="%LPAplFile%clctype" Resident="N" data_source="Default Database" id="221" name="New C/Type Table(Not Used)" offset="4717546" length="11274"/> 
+<DataObject PhysicalName="%LPAplFile%clgroup" Resident="N" data_source="Default Database" id="222" name="User Group List  ??" offset="4728821" length="3495"/> 
+<DataObject PhysicalName="%LPAplFile%CityBill" Resident="N" data_source="Default Database" id="223" name="City Bank Bills To Export ??" offset="4732317" length="14543"/> 
+<DataObject PhysicalName="%LPAplFile%CityProd" Resident="N" data_source="Default Database" id="224" name="City Bank Product Table ??" offset="4746861" length="3509"/> 
+<DataObject PhysicalName="%LPAplFile%LStage" Resident="N" data_source="Default Database" id="225" name="Legal Stage Table" offset="4750371" length="6749"/> 
+<DataObject PhysicalName="%LPAplFile%CltrID" Resident="N" data_source="Default Database" id="226" name="Collector ID Table ??" offset="4757121" length="4577"/> 
+<DataObject PhysicalName="%LPAplFile%clsolsq" Resident="N" data_source="Default Database" id="227" name="File Print Solc Seq" offset="4761699" length="4154"/> 
+<DataObject PhysicalName="%LPAplFile%cltrnsq" Resident="N" data_source="Default Database" id="228" name="Cltrno A-Type Rec Index" offset="4765854" length="12396"/> 
+<DataObject PhysicalName="%CDWHDE%" Resident="N" data_source="Default Database" id="229" name="Billing Entries Header" offset="4778251" length="52606"/> 
+<DataObject PhysicalName="%LPAplFile%clcmtf.Old" Resident="N" data_source="Default Database" id="230" name="CM Detail - Work" offset="4830858" length="74316"/> 
+<DataObject PhysicalName="%LPAplFile%glcwk1" Resident="N" data_source="Default Database" id="231" name="GL Check Batch Workfile 1" offset="4905175" length="4754"/> 
+<DataObject PhysicalName="%LPAplFile%glcwk2" Resident="N" data_source="Default Database" id="232" name="GL Check Batch Workfile 2" offset="4909930" length="9926"/> 
+<DataObject PhysicalName="%LPAplFile%cdcurr.wrk" Resident="N" data_source="Default Database" id="233" name="Currency Range Work File??" offset="4919857" length="5482"/> 
+<DataObject PhysicalName="%LPAplFile%glwrk1" Resident="N" data_source="Default Database" id="234" name="GL Tranx Inquiry - Work" offset="4925340" length="31905"/> 
+<DataObject PhysicalName="%LPAplFile%ctbctl" Resident="N" data_source="Default Database" id="235" name="eBill Control File" offset="4957246" length="5828"/> 
+<DataObject PhysicalName="%LPAplFile%ctbgen" Resident="N" data_source="Default Database" id="236" name="CTB Pre Bill Gen File" offset="4963075" length="16002"/> 
+<DataObject PhysicalName="%LPAplFile%cltrno.tmp" Resident="N" data_source="Default Database" id="237" name="Current Office Tranx ??" offset="4979078" length="66609"/> 
+<DataObject PhysicalName="%CDSumD%" Resident="N" data_source="Default Database" id="238" name="Work File - Sum By D-Code" offset="5045688" length="13162"/> 
+<DataObject PhysicalName="%LPAplFile%claction" Resident="N" data_source="Default Database" id="239" name="Outsd Tranx Action File" offset="5058851" length="12711"/> 
+<DataObject PhysicalName="%LPAplFile%cltwork" Resident="N" data_source="Default Database" id="240" name="CL/GL Tranx Work File" offset="5071563" length="7259"/> 
+<DataObject PhysicalName="%LPAplFile%cxrecp" Resident="N" data_source="Default Database" id="241" name="History Rcpt Alloc (Cxrecp)" offset="5078823" length="11156"/> 
+<DataObject PhysicalName="%LPAplFile%CUsergp" Resident="N" data_source="Default Database" id="242" name="Owner Group Table" offset="5089980" length="5277"/> 
+<DataObject PhysicalName="%LPAplFile%cxhist" Resident="N" data_source="Default Database" id="243" name="Matter Master w/History" offset="5095258" length="54072"/> 
+<DataObject PhysicalName="%LPAplFile%SiacReg" Resident="N" data_source="Default Database" id="244" name="SIAC Register" offset="5149331" length="22893"/> 
+<DataObject PhysicalName="%LPAplFile%SiacRepr" Resident="N" data_source="Default Database" id="245" name="SIAC Parties" offset="5172225" length="12906"/> 
+<DataObject PhysicalName="%LPAplFile%SiacClt" Resident="N" data_source="Default Database" id="246" name="SIAC Consol ID in Clmast" offset="5185132" length="8510"/> 
+<DataObject PhysicalName="%LPAplFile%SiacSolc" Resident="N" data_source="Default Database" id="247" name="SIAC Arb/Claim/Resp  Master" offset="5193643" length="9690"/> 
+<DataObject PhysicalName="%LPAplFile%SiacShar" Resident="N" data_source="Default Database" id="248" name="SIAC Shares Investments" offset="5203334" length="17065"/> 
+<DataObject PhysicalName="%LPAplFile%SiacAnly" Resident="N" data_source="Default Database" id="249" name="SIAC Nationality Analysis" offset="5220400" length="5522"/> 
+<DataObject PhysicalName="%LPAplFile%SiacLoad" Resident="N" data_source="Default Database" id="250" name="SIAC Case Load Detail" offset="5225923" length="9146"/> 
+<DataObject PhysicalName="%LPAplFile%SiacCat" Resident="N" data_source="Default Database" id="251" name="SIAC Case Load Summary" offset="5235070" length="9003"/> 
+<DataObject PhysicalName="%LPAplFile%SiacFirm" Resident="N" data_source="Default Database" id="252" name="SIAC Solicitor Firm Master" offset="5244074" length="3098"/> 
+<DataObject PhysicalName="%LPAplFile%SiacWork" Resident="N" data_source="Default Database" id="253" name="SIAC Statm of Deposit-Work" offset="5247173" length="9445"/> 
+<DataObject PhysicalName="%LPAplFile%SiacSWrk" Resident="N" data_source="Default Database" id="254" name="SIAC Client Summary-Work" offset="5256619" length="5870"/> 
+<DataObject PhysicalName="%LPTmFile%tmappl.old" Resident="N" data_source="Default Database" id="255" name="TMA Record Master-old" offset="5262490" length="50859"/> 
+<DataObject PhysicalName="%LPTmFile%tmruser.old" Resident="N" data_source="Default Database" id="256" name="TM Licensed User Master-old" offset="5313350" length="17562"/> 
+<DataObject PhysicalName="%LPTmFile%tmassign.old" Resident="N" data_source="Default Database" id="257" name="TM Assignment Master-old" offset="5330913" length="22004"/> 
+<DataObject PhysicalName="%LPTmFile%Tmhist.old" Resident="N" data_source="Default Database" id="258" name="TMA History Log File-old" offset="5352918" length="14830"/> 
+<DataObject PhysicalName="%LPTmFile%TmSubDate.old" Resident="N" data_source="Default Database" id="259" name="TMA Addn Subm Date-old" offset="5367749" length="7453"/> 
+<DataObject PhysicalName="%LPTmFile%tmowner" Resident="N" data_source="Default Database" id="260" name="TM Owner Master" offset="5375203" length="14277"/> 
+<DataObject PhysicalName="%LPTmFile%PctPrior.old" Resident="N" data_source="Default Database" id="261" name="PCT Priority Dates-old" offset="5389481" length="7953"/> 
+<DataObject PhysicalName="%LPTmFile%PctHist.old" Resident="N" data_source="Default Database" id="262" name="PCT History Log File-old" offset="5397435" length="14837"/> 
+<DataObject PhysicalName="%LPTmFile%PctRecord.old" Resident="N" data_source="Default Database" id="263" name="PCT Record Master-old" offset="5412273" length="35713"/> 
+<DataObject PhysicalName="%LPAplFile%clcmtfx" Resident="N" data_source="Default Database" id="264" name="Case Status HyperLink Doc" offset="5447987" length="7157"/> 
+<DataObject PhysicalName="%LPAplFile%cltypex" Resident="N" data_source="Default Database" id="265" name="Case Type Table Ext" offset="5455145" length="7142"/> 
+<DataObject PhysicalName="%LPAplFile%classist" Resident="N" data_source="Default Database" id="266" name="Assisting Secr to Solc" offset="5462288" length="2494"/> 
+<DataObject PhysicalName="%LPAplFile%Efs_XRef" Resident="N" data_source="Default Database" id="267" name="Efs Tranx XRef File" offset="5464783" length="3484"/> 
+<DataObject PhysicalName="%LPAplFile%ClCtact" Resident="N" data_source="Default Database" id="268" name="File/Acct Contact Name" offset="5468268" length="3571"/> 
+<DataObject PhysicalName="%LPAplFile%ClSProc" Resident="N" data_source="Default Database" id="269" name="Std Case Procedure Desc" offset="5471840" length="4601"/> 
+<DataObject PhysicalName="%LPAplFile%cltrna" Resident="N" data_source="Default Database" id="270" name="Cur A/R Tran(Msia Res)-unused" offset="5476442" length="71927"/> 
+<DataObject PhysicalName="%LPAplFile%cltrnasq" Resident="N" data_source="Default Database" id="271" name="Cltrna A-Typ Index (Res)-unused" offset="5548370" length="12405"/> 
+<DataObject PhysicalName="%LPAplFile%cldwork" Resident="N" data_source="Default Database" id="272" name="Dept Index Work" offset="5560776" length="5578"/> 
+<DataObject PhysicalName="%LPAplFile%clwsale" Resident="N" data_source="Default Database" id="273" name="Dept CType Summary Work" offset="5566355" length="7739"/> 
+<DataObject PhysicalName="%LPAplFile%clppadr" Resident="N" data_source="Default Database" id="274" name="RC Doc Header Address Ext" offset="5574095" length="7293"/> 
+<DataObject PhysicalName="%LPAplFile%cltidx1" Resident="N" data_source="Default Database" id="275" name="Bill Solc Sub-Analysis(Cltrno)" offset="5581389" length="17579"/> 
+<DataObject PhysicalName="%LPAplFile%clcount1" Resident="N" data_source="Default Database" id="276" name="Case Count Summary" offset="5598969" length="8843"/> 
+<DataObject PhysicalName="%LPAplFile%clcount2" Resident="N" data_source="Default Database" id="277" name="Case Count by Month" offset="5607813" length="20591"/> 
+<DataObject PhysicalName="%LPAplFile%cltcwrk1" Resident="N" data_source="Default Database" id="278" name="TC Tranx Xref Print File" offset="5628405" length="10386"/> 
+<DataObject PhysicalName="%LPAplFile%cltcwrk2" Resident="N" data_source="Default Database" id="279" name="TC Cc-Initial Substitution" offset="5638792" length="4183"/> 
+<DataObject PhysicalName="%LPAplFile%cltrw" Resident="N" data_source="Default Database" id="280" name="Tranx Work File**** ??" offset="5642976" length="51585"/> 
+<DataObject PhysicalName="%LPAplFile%Apphdr" Resident="N" data_source="Default Database" id="281" name="AP Table Header" offset="5694562" length="21101"/> 
+<DataObject PhysicalName="%LPAplFile%Appdtl" Resident="N" data_source="Default Database" id="282" name="AP Table Details" offset="5715664" length="19946"/> 
+<DataObject PhysicalName="%LPAplFile%Appdgl" Resident="N" data_source="Default Database" id="283" name="AP Table GL Analysis" offset="5735611" length="13950"/> 
+<DataObject PhysicalName="%LPAplFile%Apuphdr" Resident="N" data_source="Default Database" id="284" name="xAP Table Header" offset="5749562" length="21103"/> 
+<DataObject PhysicalName="%LPAplFile%Apupdtl" Resident="N" data_source="Default Database" id="285" name="xAP Table Details" offset="5770666" length="19953"/> 
+<DataObject PhysicalName="%LPAplFile%Apupdgl" Resident="N" data_source="Default Database" id="286" name="xAP Table GL Analysis" offset="5790620" length="13718"/> 
+<DataObject PhysicalName="%LPAplFile%Apwork" Resident="N" data_source="Default Database" id="287" name="AP -GL Summary Work" offset="5804339" length="10887"/> 
+<DataObject PhysicalName="%LPAplFile%Apctls" Resident="N" data_source="Default Database" id="288" name="AP Control A/cs File" offset="5815227" length="5253"/> 
+<DataObject PhysicalName="%LPAplFile%Gljwrk" Resident="N" data_source="Default Database" id="289" name="GL Job A/c Work File" offset="5820481" length="4304"/> 
+<DataObject PhysicalName="%LPAplFile%Clbal-SW" Resident="N" data_source="Default Database" id="290" name="Cl Bal (SW) Print File by TC" offset="5824786" length="10872"/> 
+<DataObject PhysicalName="%LPAplFile%chinvhdr" Resident="N" data_source="Default Database" id="291" name="Bill Header History" offset="5835659" length="58665"/> 
+<DataObject PhysicalName="%LPAplFile%chinvdtl" Resident="N" data_source="Default Database" id="292" name="Bill Detail History" offset="5894325" length="30496"/> 
+<DataObject PhysicalName="%LPAplFile%chcnhdr" Resident="N" data_source="Default Database" id="293" name="Credit Note Header History" offset="5924822" length="58666"/> 
+<DataObject PhysicalName="%LPAplFile%chcndtl" Resident="N" data_source="Default Database" id="294" name="Credit Note Detail History" offset="5983489" length="30503"/> 
+<DataObject PhysicalName="%LPAplFile%chfeesol" Resident="N" data_source="Default Database" id="295" name="Fees By Solicitor History" offset="6013993" length="7819"/> 
+<DataObject PhysicalName="%LPAplFile%gstwrk" Resident="N" data_source="Default Database" id="296" name="GST Reg Sum by Bch" offset="6021813" length="15676"/> 
+<DataObject PhysicalName="%LPAplFile%gstwrk2" Resident="N" data_source="Default Database" id="297" name="Gltran GST A/c Sum by Bch" offset="6037490" length="12610"/> 
+<DataObject PhysicalName="%CDVBLE%" Resident="N" data_source="Default Database" id="298" name="Billing System User Parameters" offset="6050101" length="83556"/> 
+<DataObject PhysicalName="%LPAplFile%SyuAudit" Resident="N" data_source="Default Database" id="299" name="Syuser Audit Trail" offset="6133658" length="136601"/> 
+<DataObject PhysicalName="%LPAplFile%Clde_Gst" Resident="N" data_source="Default Database" id="300" name="Day-end Gst Summary Work" offset="6270260" length="10410"/> 
+<DataObject PhysicalName="%LPAplFile%clpbgst" Resident="N" data_source="Default Database" id="301" name="Posting Gst Summary" offset="6280671" length="15671"/> 
+<DataObject PhysicalName="%LPAplFile%cupbgst" Resident="N" data_source="Default Database" id="302" name="xPosting Gst Summary" offset="6296343" length="15671"/> 
+<DataObject PhysicalName="%LPAplFile%clrcp_GL" Resident="N" data_source="Default Database" id="303" name="Receipt/GL A/c XRef" offset="6312015" length="7416"/> 
+<DataObject PhysicalName="%LPAplFile%gltranEx" Resident="N" data_source="Default Database" id="304" name="GL Transaction Ext." offset="6319432" length="8458"/> 
+<DataObject PhysicalName="%LPAplFile%clmast.Cmp" Resident="N" data_source="Default Database" id="305" name="Matter Master -Work" offset="6327891" length="61597"/> 
+<DataObject PhysicalName="%LPAplFile%Clrcpanl" Resident="N" data_source="Default Database" id="306" name="A-Type Receipts Analysis *" offset="6389489" length="8468"/> 
+<DataObject PhysicalName="%LPAplFile%Cltrxidx" Resident="N" data_source="Default Database" id="307" name="Office Tranx Index Extension" offset="6397958" length="29966"/> 
+<DataObject PhysicalName="%LPAplFile%Cltrnidx" Resident="N" data_source="Default Database" id="308" name="Index Cltrno by Batch No" offset="6427925" length="4244"/> 
+<DataObject PhysicalName="%LPAplFile%Cltcwrk4" Resident="N" data_source="Default Database" id="309" name="Partner/LA T/C Work" offset="6432170" length="7951"/> 
+<DataObject PhysicalName="%LPAplFile%cltcwrk5" Resident="N" data_source="Default Database" id="310" name="TC Tranx Print Work File *" offset="6440122" length="15180"/> 
+<DataObject PhysicalName="%LPAplFile%Dingen" Resident="N" data_source="Default Database" id="311" name="Diners Pre Bill Gen File" offset="6455303" length="16005"/> 
+<DataObject PhysicalName="%LPAplFile%EfsXref" Resident="N" data_source="Default Database" id="312" name="Efs Type/Disb X-Ref Table" offset="6471309" length="3969"/> 
+<DataObject PhysicalName="%LPAplFile%Clwrk4" Resident="N" data_source="Default Database" id="313" name="Table Entry Work4" offset="6475279" length="9915"/> 
+<DataObject PhysicalName="%LPAplFile%Clwrk6" Resident="N" data_source="Default Database" id="314" name="Check Batch Workfile6-Util" offset="6485195" length="14209"/> 
+<DataObject PhysicalName="%LPAplFile%Clbalwrk" Resident="N" data_source="Default Database" id="315" name="On-line Balance Work" offset="6499405" length="6055"/> 
+<DataObject PhysicalName="%LPAplFile%eRMst" Resident="N" data_source="Default Database" id="316" name="E_Report - Control Record" offset="6505461" length="15211"/> 
+<DataObject PhysicalName="%LPAplFile%eRTyp" Resident="N" data_source="Default Database" id="317" name="E_Report - File Definition" offset="6520673" length="4316"/> 
+<DataObject PhysicalName="%LPAplFile%eRGrp" Resident="N" data_source="Default Database" id="318" name="E_Report - Group Table" offset="6524990" length="4313"/> 
+<DataObject PhysicalName="%LPAplFile%eRBill" Resident="N" data_source="Default Database" id="319" name="E_Report - Bills" offset="6529304" length="33792"/> 
+<DataObject PhysicalName="%LPAplFile%eRRHdr" Resident="N" data_source="Default Database" id="320" name="E_Report - Report Header" offset="6563097" length="20645"/> 
+<DataObject PhysicalName="%LPAplFile%Callwork" Resident="N" data_source="Default Database" id="321" name="Full Cash Allocation Work(old)" offset="6583743" length="12164"/> 
+<DataObject PhysicalName="%LPAplFile%cslgen" Resident="N" data_source="Default Database" id="322" name="CTBSL Pre Bill Gen File" offset="6595908" length="16004"/> 
+<DataObject PhysicalName="%LPAplFile%eCTbl" Resident="N" data_source="Default Database" id="323" name="YLP eCase File Detail Table" offset="6611913" length="13675"/> 
+<DataObject PhysicalName="%LPAplFile%ePick" Resident="N" data_source="Default Database" id="324" name="eCase Client To Export Table" offset="6625589" length="3497"/> 
+<DataObject PhysicalName="%LPAplFile%CldeGst2" Resident="N" data_source="Default Database" id="325" name="Day-end Gst Summary Wk2" offset="6629087" length="11955"/> 
+<DataObject PhysicalName="%LPAplFile%CLVNOTES" Resident="N" data_source="Default Database" id="326" name="Client Verification Details" offset="6641043" length="8411"/> 
+<DataObject PhysicalName="%LPAplFile%Callwrk2" Resident="N" data_source="Default Database" id="327" name="Full Cash Allocation Work2" offset="6649455" length="15370"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30220758154917316"/>  </Application>

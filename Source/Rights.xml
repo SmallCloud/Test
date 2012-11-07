@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12000"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="87"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <RightsRepository>
+    <Rights>
+      <Right id="1" name="Supervisor">
+        <PublicRight val="N"/>
+        <Key val="3569889M"/>
+      </Right>
+      <Right id="2" name="Access File Table">
+        <PublicRight val="N"/>
+        <Key val="LP768File"/>
+      </Right>
+      <Right id="3" name="System Programming">
+        <PublicRight val="N"/>
+        <Key val="PRORIGHT"/>
+      </Right>
+      <Right id="4" name="System Setting">
+        <PublicRight val="N"/>
+        <Key val="SETTINGS"/>
+      </Right>
+      <Right id="5" name="Run Time Only">
+        <PublicRight val="N"/>
+        <Key val="DCSCOORD"/>
+      </Right>
+      <Right id="6" name="End User Supervisor">
+        <PublicRight val="Y"/>
+        <Key val="SYSMANAGER"/>
+      </Right>
+      <Right id="7" name="Access LegalPac">
+        <PublicRight val="Y"/>
+        <Key val="Legal_Pac"/>
+      </Right>
+      <Right id="10" name="Access  Parameter Maint.">
+        <PublicRight val="Y"/>
+        <Key val="PARAM"/>
+      </Right>
+      <Right id="11" name="Access Misc Table Setup">
+        <PublicRight val="Y"/>
+        <Key val="SETUP"/>
+      </Right>
+      <Right id="12" name="Access Master Maintenance">
+        <PublicRight val="Y"/>
+        <Key val="MSTUP"/>
+      </Right>
+      <Right id="13" name="Access General Utilities">
+        <PublicRight val="Y"/>
+        <Key val="UTILITY"/>
+      </Right>
+      <Right id="14" name="Access CL Batch Posting">
+        <PublicRight val="Y"/>
+        <Key val="CLPOST"/>
+      </Right>
+      <Right id="15" name="Access CL On Line Posting">
+        <PublicRight val="Y"/>
+        <Key val="CLONLINE"/>
+      </Right>
+      <Right id="16" name="Access CL Batch Update">
+        <PublicRight val="Y"/>
+        <Key val="CLUPDAT"/>
+      </Right>
+      <Right id="17" name="Access to Allocation">
+        <PublicRight val="Y"/>
+        <Key val="ALLOCATE"/>
+      </Right>
+      <Right id="18" name="Access Period End Routine">
+        <PublicRight val="Y"/>
+        <Key val="PERIOD"/>
+      </Right>
+      <Right id="19" name="Access GL Posting">
+        <PublicRight val="Y"/>
+        <Key val="GLPOST"/>
+      </Right>
+      <Right id="20" name="Access GL Update">
+        <PublicRight val="Y"/>
+        <Key val="GLUPDAT"/>
+      </Right>
+      <Right id="21" name="Access GL Bank Reconciliation">
+        <PublicRight val="Y"/>
+        <Key val="BANKREC"/>
+      </Right>
+      <Right id="22" name="Access Time Cost Entry">
+        <PublicRight val="Y"/>
+        <Key val="TCENTRY"/>
+      </Right>
+      <Right id="23" name="Access CL Operation Reports">
+        <PublicRight val="Y"/>
+        <Key val="CLOPNRP"/>
+      </Right>
+      <Right id="24" name="Access CL Master Reports">
+        <PublicRight val="Y"/>
+        <Key val="CLMSTRP"/>
+      </Right>
+      <Right id="25" name="Access CL Balance Reports">
+        <PublicRight val="Y"/>
+        <Key val="CLBALRP"/>
+      </Right>
+      <Right id="26" name="Access CL Detail Reports">
+        <PublicRight val="Y"/>
+        <Key val="CLDETRP"/>
+      </Right>
+      <Right id="27" name="Access GL Operation Reports">
+        <PublicRight val="Y"/>
+        <Key val="GLOPNRP"/>
+      </Right>
+      <Right id="28" name="Access GL Master Reports">
+        <PublicRight val="Y"/>
+        <Key val="GLMSTRP"/>
+      </Right>
+      <Right id="29" name="Access GL Balance Reports">
+        <PublicRight val="Y"/>
+        <Key val="GLBALRP"/>
+      </Right>
+      <Right id="30" name="Access CR Operation Reports">
+        <PublicRight val="Y"/>
+        <Key val="CROPNRP"/>
+      </Right>
+      <Right id="31" name="Access CR Master Reports">
+        <PublicRight val="Y"/>
+        <Key val="CRMSTRP"/>
+      </Right>
+      <Right id="32" name="Access CR Balance Reports">
+        <PublicRight val="Y"/>
+        <Key val="CRBALRP"/>
+      </Right>
+      <Right id="33" name="Access CR Performance Reports">
+        <PublicRight val="Y"/>
+        <Key val="CRPERRP"/>
+      </Right>
+      <Right id="34" name="Access TC Operation Reports">
+        <PublicRight val="Y"/>
+        <Key val="CTOPNRP"/>
+      </Right>
+      <Right id="35" name="Access TC Performance Reports">
+        <PublicRight val="Y"/>
+        <Key val="CTPERRP"/>
+      </Right>
+      <Right id="36" name="Access CM Operation Reports">
+        <PublicRight val="Y"/>
+        <Key val="CMOPNRP"/>
+      </Right>
+      <Right id="37" name="Access CM Detail Reports">
+        <PublicRight val="Y"/>
+        <Key val="CMDETRP"/>
+      </Right>
+      <Right id="38" name="Access Dial In Setup">
+        <PublicRight val="Y"/>
+        <Key val="DISETUP"/>
+      </Right>
+      <Right id="39" name="Access Dial In Programs">
+        <PublicRight val="Y"/>
+        <Key val="DIALIN"/>
+      </Right>
+      <Right id="40" name="Access Billing Misc Setup">
+        <PublicRight val="Y"/>
+        <Key val="CDSETUP"/>
+      </Right>
+      <Right id="41" name="Access Billing Operations">
+        <PublicRight val="Y"/>
+        <Key val="CDBILL"/>
+      </Right>
+      <Right id="42" name="Access Billing Update">
+        <PublicRight val="Y"/>
+        <Key val="CDUPDATE"/>
+      </Right>
+      <Right id="43" name="Access TC Worksheet Print">
+        <PublicRight val="Y"/>
+        <Key val="TCPrint"/>
+      </Right>
+      <Right id="44" name="Access Account Priv Utilities">
+        <PublicRight val="Y"/>
+        <Key val="UTACCT"/>
+      </Right>
+      <Right id="45" name="Access M1 Maintenance (new)">
+        <PublicRight val="Y"/>
+        <Key val="M1MAINT"/>
+      </Right>
+      <Right id="46" name="Access M1 Reports (new)">
+        <PublicRight val="Y"/>
+        <Key val="M1REPORT"/>
+      </Right>
+      <Right id="47" name="Access Malaysian Reports">
+        <PublicRight val="Y"/>
+        <Key val="M'SIA"/>
+      </Right>
+      <Right id="48" name="CTB e-Billing">
+        <PublicRight val="Y"/>
+        <Key val="CTBeBill"/>
+      </Right>
+      <Right id="49" name="Pre-Billing Generation">
+        <PublicRight val="Y"/>
+        <Key val="eBillG"/>
+      </Right>
+      <Right id="50" name="Pre-Billing Confirmation">
+        <PublicRight val="Y"/>
+        <Key val="eBillC"/>
+      </Right>
+      <Right id="51" name="Bill Generation (Auto)">
+        <PublicRight val="Y"/>
+        <Key val="eBillB"/>
+      </Right>
+      <Right id="52" name="Bill Export">
+        <PublicRight val="Y"/>
+        <Key val="eBillE"/>
+      </Right>
+      <Right id="53" name="Import to LegalPac">
+        <PublicRight val="Y"/>
+        <Key val="CLImport"/>
+      </Right>
+      <Right id="54" name="Export LegalPac Data">
+        <PublicRight val="Y"/>
+        <Key val="CLExport"/>
+      </Right>
+      <Right id="55" name="TradeMark - Master Maintenance">
+        <PublicRight val="Y"/>
+        <Key val="TMMaint"/>
+      </Right>
+      <Right id="56" name="TradeMark - Applcation Maint">
+        <PublicRight val="Y"/>
+        <Key val="TMAppln"/>
+      </Right>
+      <Right id="57" name="TradeMark - Report Print">
+        <PublicRight val="Y"/>
+        <Key val="TMReport"/>
+      </Right>
+      <Right id="58" name="TradeMark - Generate Forms">
+        <PublicRight val="Y"/>
+        <Key val="TMForms"/>
+      </Right>
+      <Right id="59" name="TradeMark - Inquiry">
+        <PublicRight val="Y"/>
+        <Key val="TMInqry"/>
+      </Right>
+      <Right id="60" name="Contact Master Maint">
+        <PublicRight val="Y"/>
+        <Key val="RPMaint"/>
+      </Right>
+      <Right id="61" name="Contact Master Inquiry Print">
+        <PublicRight val="Y"/>
+        <Key val="RPPrint"/>
+      </Right>
+      <Right id="62" name="SIAC Report">
+        <PublicRight val="Y"/>
+        <Key val="SIAC"/>
+      </Right>
+      <Right id="63" name="Patents">
+        <PublicRight val="Y"/>
+        <Key val="Patents"/>
+      </Right>
+      <Right id="64" name="Misc Reports">
+        <PublicRight val="Y"/>
+        <Key val="MiscReport"/>
+      </Right>
+      <Right id="65" name="Maintain Warehouse Info">
+        <PublicRight val="Y"/>
+        <Key val="Wh Maint"/>
+      </Right>
+      <Right id="66" name="Maintain Past File Handlers">
+        <PublicRight val="Y"/>
+        <Key val="Past ID"/>
+      </Right>
+      <Right id="67" name="YLP e-Billing">
+        <PublicRight val="Y"/>
+        <Key val="YLPeBill"/>
+      </Right>
+      <Right id="68" name="Diners e-Billing">
+        <PublicRight val="Y"/>
+        <Key val="DineBill"/>
+      </Right>
+      <Right id="69" name="Tan Jin Hwee LLC">
+        <PublicRight val="Y"/>
+        <Key val="TJH"/>
+      </Right>
+      <Right id="70" name="Tan Peng Chin LLC">
+        <PublicRight val="Y"/>
+        <Key val="TPC"/>
+      </Right>
+      <Right id="71" name="eReporting">
+        <PublicRight val="Y"/>
+        <Key val="eReport"/>
+      </Right>
+      <Right id="72" name="eReporting - Initialisation">
+        <PublicRight val="Y"/>
+        <Key val="eRCMnt"/>
+      </Right>
+      <Right id="73" name="eReporting - SCB Users">
+        <PublicRight val="Y"/>
+        <Key val="eRCSCB"/>
+      </Right>
+      <Right id="74" name="eReporting - Privilege User">
+        <PublicRight val="Y"/>
+        <Key val="eRTDef"/>
+      </Right>
+      <Right id="75" name="Wong Tan &amp; Molly Lim LLC">
+        <PublicRight val="Y"/>
+        <Key val="WTML"/>
+      </Right>
+      <Right id="76" name="Yeo-Leong &amp; Peh LLC">
+        <PublicRight val="Y"/>
+        <Key val="YLP"/>
+      </Right>
+      <Right id="77" name="Billing via Template (BvT)">
+        <PublicRight val="Y"/>
+        <Key val="BvTplate"/>
+      </Right>
+      <Right id="78" name="BvT Maintenance">
+        <PublicRight val="Y"/>
+        <Key val="BvTMnt"/>
+      </Right>
+      <Right id="86" name="BvT Operations (Secretary)">
+        <PublicRight val="Y"/>
+        <Key val="BvTSec"/>
+      </Right>
+      <Right id="87" name="BvT Operations (Accounts)">
+        <PublicRight val="Y"/>
+        <Key val="BvTAcc"/>
+      </Right>
+    </Rights>
+  </RightsRepository>
+
+</Application>

@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12000"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="24"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="Account No.">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="XXXXXXXXXXXXXX"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="14"/>
+          <DatabaseInformation id="177"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="2" name="Client ID">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="10"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="10"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="3" name="Date (string 6)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="6"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="6"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="Date (bfloat 4)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="######"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="6"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="Date (String 8)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="8"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="Solc/Partner/Secr">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="Index Key">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="10"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="10"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="8" name="Client Addr Set">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="38"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="38"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="9" name="G/L Codes">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="8"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="8"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="10" name="Amount">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N#########.##"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="9"/>
+          <_Negative id="192" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object id="11" name="Case Type">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="3"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="3"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="12" name="Disb Code">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="4"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="4"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="13" name="Country/Co./Dept CD">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="14" name="Charge Code">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="4"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="4"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="15" name="GST Code">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98" valUnicode="0,1,9"/>
+          <Picture id="157" valUnicode="1"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="16" name="Time Cost Hour">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="######.##"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="6"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="17" name="Time Cost Rate">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="###.######"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167" val="0"/>
+          <StoredAs id="173"/>
+          <_Dec id="181" val="6"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+        </PropertyList>
+      </Object>
+      <Object id="18" name="Misc Table Key">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="19" name="TM Application No.">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="20" name="Mailing Group">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="21" name="AP Account No.">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="6"/>
+          <GuiDisplay id="158">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplay>
+          <GuiDisplayTable id="159">
+            <PropertyList FLD_FLAGS="216" model="CTRL_GUI0_EDIT">
+              <HelpScreen id="54"/>
+              <HelpPrompt id="57"/>
+              <SelectProgram id="58"/>
+              <SelectMode id="59"/>
+            </PropertyList>
+          </GuiDisplayTable>
+          <NullValue id="167"/>
+          <StoredAs id="173"/>
+          <Size id="174" val="6"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="23" name="==================">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="24" name="Yes, No">
+        <PropertyList model="CTRL_GUI0_RADIO"/>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>

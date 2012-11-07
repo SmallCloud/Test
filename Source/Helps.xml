@@ -1,0 +1,1492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12000"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="212"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <HelpRepository>
+    <HelpScreens>
+      <Help Type="I" id="1" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="2" name="Client Master Maintenance">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="3" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="4" name="Overview and Client ID">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="This program enable new client record to be created, existin&#xD;&#xA;g record to be amended, reviewed, or deleted.&#xD;&#xA;&#xD;&#xA;The amend routine permits the change of any client detail ot&#xD;&#xA;her than the Client ID code or the account balances.&#xD;&#xA;If balances exist, the rec cannot be deleted&#xD;&#xA;&#xD;&#xA;CLIENT ID&#xD;&#xA;=========&#xD;&#xA;It is recommended that a consistent approach should be adopt&#xD;&#xA;ed in assigning the CLIENT ID code.&#xD;&#xA;&#xD;&#xA;Eg If Corporate Client:&#xD;&#xA;         i. Use standard abbreviation  of the company. Eg SI&#xD;&#xA;A&#xD;&#xA;         ii. For financial institution, each branch will be &#xD;&#xA;treated as a &#xD;&#xA;             separate entity and aunique Client ID will be a&#xD;&#xA;ssigned              for each branch. Eg OCBCMAIN, OCBCTANJO&#xD;&#xA;,              OCBCSHENT&#xD;&#xA;         iii. If there are no standard abbreviation for the &#xD;&#xA;company, &#xD;&#xA;             use the first 5-letter of the first name and th&#xD;&#xA;e last 5 letter &#xD;&#xA;             of the last name&#xD;&#xA;      If individual Client :&#xD;&#xA;         i. 3:3:4 approach for chinese name Ie first 3 lette&#xD;&#xA;r of the&#xD;&#xA;            first name, first 3 letters of the second name a&#xD;&#xA;nd first 4&#xD;&#xA;            letters of the last name&#xD;&#xA;         ii. If it is a non chinese name, assign 5 by 5 basi&#xD;&#xA;s&#xD;&#xA;         Ie first 5 letter of the first name and first 5 let&#xD;&#xA;ter of lastname&#xD;&#xA;&#xD;&#xA;A/C TYPE &#xD;&#xA;========&#xD;&#xA;Coporate or individual. For individual, business nature, dat&#xD;&#xA;e incorp and date commenced will not be applicable&#xD;&#xA;&#xD;&#xA;GST Status&#xD;&#xA;=========&#xD;&#xA;Zero Rated - for zero rated client in which GST is not appli&#xD;&#xA;cable&#xD;&#xA;Standard Rated - For standard rated client in which GST is a&#xD;&#xA;pplicable&#xD;&#xA;Exempted - For client in which GST is exempted&#xD;&#xA;&#xD;&#xA;CLASS&#xD;&#xA;======&#xD;&#xA;This is a alternate sort key to facilitate accessing of the &#xD;&#xA;files to print reports such as Client Master Listing, Balanc&#xD;&#xA;e Listing, Statement of Account &amp; Ageing Listing&#xD;&#xA;&#xD;&#xA;MAIN GROUP&#xD;&#xA;============&#xD;&#xA;Can be used for industrial grouping of client. Eg Bankers, C&#xD;&#xA;ommissioner of Oaths / Notary Public, Developers, Finance co&#xD;&#xA;mpanies etc. Code is applicable for analysis of Fee by Indus&#xD;&#xA;tries Report&#xD;&#xA;&#xD;&#xA;SUB GROUP&#xD;&#xA;===========&#xD;&#xA;Further sub grouping of Main Group above. Eg Bankers main gr&#xD;&#xA;oup can be further sub group into local, foreign, offshore a&#xD;&#xA;nd Industries report&#xD;&#xA;&#xD;&#xA;CREATED&#xD;&#xA;========&#xD;&#xA;The creation date of the client's master maintenance.&#xD;&#xA;&#xD;&#xA;TERM&#xD;&#xA;=====&#xD;&#xA;Credit rating of client. Infor will be printed on aged Recei&#xD;&#xA;vable listing&#xD;&#xA;&#xD;&#xA;LAST A/C ON&#xD;&#xA;===========&#xD;&#xA;Updated by system with the creation date of the last file cr&#xD;&#xA;eated for client&#xD;&#xA;&#xD;&#xA;MATTER YTD&#xD;&#xA;============&#xD;&#xA;Display the total no of files for the year&#xD;&#xA;&#xD;&#xA;MATTER TOTAL&#xD;&#xA;==============&#xD;&#xA;Display the total no fo files opened for the client up till &#xD;&#xA;to date&#xD;&#xA;&#xD;&#xA;NAME&#xD;&#xA;=====&#xD;&#xA;The full client name&#xD;&#xA;&#xD;&#xA;REFERRAL &#xD;&#xA;==========&#xD;&#xA;The party that introduce the client to the legal firm&#xD;&#xA;&#xD;&#xA;PHONE&#xD;&#xA;======&#xD;&#xA;Client's phone number&#xD;&#xA;&#xD;&#xA;FAX&#xD;&#xA;===&#xD;&#xA;Client's fax number&#xD;&#xA;&#xD;&#xA;SENIOR PARTNER&#xD;&#xA;================&#xD;&#xA;Senior partner that is in charge of the client&#xD;&#xA;&#xD;&#xA;PARTNER&#xD;&#xA;=========&#xD;&#xA;Partner that is in charge of the client&#xD;&#xA;&#xD;&#xA;SOLICITOR&#xD;&#xA;==========&#xD;&#xA;The solicitor incharge of the client. to facilitate printing&#xD;&#xA; of Client's Master listing and Client's Balance listing by &#xD;&#xA;this solicitor code.&#xD;&#xA;&#xD;&#xA;COUNTRY &#xD;&#xA;=========&#xD;&#xA;A 2 digit code defined in Misc Table Maintenance with the ta&#xD;&#xA;ble header 'COUNTRY'&#xD;&#xA;&#xD;&#xA;DATE INCORPORATED&#xD;&#xA;====================&#xD;&#xA;Date of incorporation. Relevant only if legal firm is handli&#xD;&#xA;ng the secretarial work&#xD;&#xA;&#xD;&#xA;DATE COMMENCED&#xD;&#xA;=================&#xD;&#xA;Date of commencement of business. Relevant only if legal fir&#xD;&#xA;m is handling the secretarial work&#xD;&#xA;&#xD;&#xA;BUSINESS NATURE&#xD;&#xA;=================&#xD;&#xA;To indicate the nature or type of business the client engage&#xD;&#xA;d in&#xD;&#xA;&#xD;&#xA;ADDITIONAL INFORMATION&#xD;&#xA;========================&#xD;&#xA;For general description of client. Can use this field to ent&#xD;&#xA;er any information of interest pertaining to client involved&#xD;&#xA;. Information will be printed on Account Master Listing&#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="5" name="A/C type">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;Corporate or Non-Corporatel client. For Individual client, b&#xD;&#xA;usiness nature, Date of Incorporation and Date commence are &#xD;&#xA;not applicable&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Y id="22" val="2"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="6" name="GST Status">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;Zero - Zero rated client in which GST is not applicable&#xD;&#xA;&#xD;&#xA;Standard - Standard rated client in which GST is chargableNo&#xD;&#xA; Tax - Client which is exempted from GST charges&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="7" name="Class">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;A 3 digit sort key to facilitate accessing of file in Client&#xD;&#xA;'s Master Listing, Balance Listing, Statement of Account and&#xD;&#xA; Ageing Analysis. Can be use to code type of business.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="8" name="Main Group">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;Grouping of client into industrial group such as Bankers, Co&#xD;&#xA;mmissioner of Oath / Notary Public, Developers, Finance Comp&#xD;&#xA;anies, Insurance, Others etc&#xD;&#xA;&#xD;&#xA;This is to facilitate printing the report Analysis of Fees b&#xD;&#xA;y Industries &#xD;&#xA;&#xD;&#xA;The Industrial group code has to be created in Misc Table Ma&#xD;&#xA;intenance under the heading 'IND GROUP'&#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Y id="22" val="2"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="9" name="Sub Group">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;Further sub grouping of industrial group for report 'Analysi&#xD;&#xA;s of Fees by Industries'&#xD;&#xA;&#xD;&#xA;Eg For Industrial group Bankers, it can be sub group into Lo&#xD;&#xA;cal,  Foreign, Offshore, Merchant etc&#xD;&#xA;&#xD;&#xA;Sub group code has to be created in Misc Table Maintenance u&#xD;&#xA;nder the heading 'IND SUBGR'&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="10" name="Date created">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;Date in which the Client's master record is created.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Y id="22" val="2"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="11" name="Terms">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;Credit terms  for client (if applicable)&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Y id="22" val="2"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="12" name="Credit Limit">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;Credit limit for client (if applicable)&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Y id="22" val="2"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="13" name="Credit Rating">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;Credit Rating of Client. Ie Good, Bad etc.&#xD;&#xA;&#xD;&#xA;Info will be printed in Aged Receivable listing with detaile&#xD;&#xA;d transactions.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="14" name="Last A/C on">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;Display the date in which the last file was created for this&#xD;&#xA; client.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="15" name="Matter YTD">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Display the total no of files created for this client for th&#xD;&#xA;e current year&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="16" name="Matter Total">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Display the total no of files created for this client up til&#xD;&#xA;l to date&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="17" name="Name">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;The full name of the client. If length of field is not suffi&#xD;&#xA;cient to key in the full name, user is still able to extend &#xD;&#xA;the name under the NAME &amp; ADDRESS MAINTENANCE program&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="18" name="Referral">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;The party that introduce the client to the legal firm&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="19" name="Senior Partner">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;The senior partner in which this client belongs to&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="20" name="Partner">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;The partner in which this client's belong to. This field is &#xD;&#xA;to facilitate accessing of accounts by partners in Client's &#xD;&#xA;balance lisiting&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="21" name="Solicitor">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;The main solicitor in charge of this client.  This field is &#xD;&#xA;to facilitate accessing of accounts by lawyer in charge in C&#xD;&#xA;lient's Balance Listing.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="22" name="Country">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;A 2 digit code defined in Misc Table Maintenance with the ta&#xD;&#xA;ble header 'COUNTRY'&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="23" name="Date Incorporate">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Date in which the company is incorporated. Applicable for cl&#xD;&#xA;ient in which the secretarial work is done by the legal firm&#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="24" name="Date commence">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Date in which the company commence business. Applicable in w&#xD;&#xA;hich the legal firm perform secretarial work for client&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="25" name="Business Nature">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;To provide a brief description on the type of business the c&#xD;&#xA;lient engaged in&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="26" name="Additional Info">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;General description of client. Can use it to enter any infor&#xD;&#xA;mation of interest pertaining to client involved. This infor&#xD;&#xA;mation field  will&#xD;&#xA;be printed in Account Master Listing&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Font id="50" val="1"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="27" name="Client ID">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="A unique 10 character ID assigned to client."/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="28" name="Class">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Alternate sort key to facilitate printing of reports. Eg type of business"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="29" name="Solicitor in charge">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="The solicitor in charge of the client."/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="30" name="Partner in charge">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Partner in charge of the client"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="31" name="Sr-Prtn">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Senior Partner in charge of the client"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="32" name="Client Name">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Client full name."/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="33" name="Country">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Country in which the client is based"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="34" name="Date Incorp">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Date of incorporation. Relevant only for case of incorporation."/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="35" name="Date commenced">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Date of commencement of business. Relevant only for case on incorporation."/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="36" name="Phone">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Client's phone number"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="37" name="Fax">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Client's Fax number"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="38" name="Business Nature">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Type of business the client engaged"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="39" name="Referral">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="The introducer party"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="40" name="Other information">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="General desc of client or any remark"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="41" name="Last A/c ON">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Display field on  the creation date of the last file created for client"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="42" name="Matter Total">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Display field on the total no of matters per client. Incremented by system"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="43" name="Matter YTD">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Display field on total no of file for the current year"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="44" name="Term">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Credit terms in days. Enter a '-' to suppress printing of terms on bill"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="45" name="Credit Limit">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Credit Limit set for client"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="46" name="Credit Rating">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Credit Rating of Client. Will be printed in Aged Rece'vable listing"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="47" name="MTD Billing">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Display Month to Date Billing"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="48" name="YTD Billing">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Display Year to Date Billing"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="49" name="Date created">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Display date in which the client record is created"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="50" name="Main Group">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Industrial group code in Misc Table Master"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="51" name="Sub Group">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Industrial sub group code in Misc Table Master."/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="52" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="53" name="Account  File Maintenance">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="This program enables new accounts to be created, existing ac&#xD;&#xA;counts to be amended, reviewed, deleted or deactivated. If f&#xD;&#xA;inancial balances exist, an account may not be deleted or de&#xD;&#xA;activated. The amend routine permits the change of any accou&#xD;&#xA;nt detail other than the account number or the account balan&#xD;&#xA;ce. Any changes to the account balance must be made via the &#xD;&#xA;posting entry program within the batch posting.&#xD;&#xA;&#xD;&#xA;The maintenance functions provided are&#xD;&#xA;&#xD;&#xA;    CREATE  -  (Ctrl C)&#xD;&#xA;               Create new account. All details except financ&#xD;&#xA;ial                         balances can be amended.&#xD;&#xA;    MODIFY -  (Ctrl M)&#xD;&#xA;               Amend existing account. All details except fi&#xD;&#xA;nancial &#xD;&#xA;               balances can be amended.&#xD;&#xA;    QUERY  - (Ctrl Q)&#xD;&#xA;              Review existing account. The master file may b&#xD;&#xA;e               displayed  on the screen with this function,&#xD;&#xA; but no &#xD;&#xA;               amendment can be made.&#xD;&#xA;    DELETE (Select DELETE button)&#xD;&#xA;              Delete existing account. Accounts may only be &#xD;&#xA;&#xD;&#xA;              deleted from the file when all financial and s&#xD;&#xA;tatistics                    fields are zero. Sales statisti&#xD;&#xA;cs fileds are cleared at  &#xD;&#xA;              financial year end and acounts deactivated wou&#xD;&#xA;ld &#xD;&#xA;              be removed at this time. Accounts deleted usin&#xD;&#xA;g this&#xD;&#xA;              function are permanently removed from the data&#xD;&#xA;base               without being transferred to the history &#xD;&#xA;files. It is  mainly&#xD;&#xA;              used to remove accounts wrongly created or    &#xD;&#xA;                          unimportant case records not to be&#xD;&#xA; referenced in&#xD;&#xA;              future.&#xD;&#xA;&#xD;&#xA;    DEACT (Select Deact button)&#xD;&#xA;             Deactivate function exists to close accounts th&#xD;&#xA;at re              completed and presumably no more transact&#xD;&#xA;ions are &#xD;&#xA;             expected subsequently. The year end house-keepi&#xD;&#xA;ng&#xD;&#xA;             routine will purge the case detail records from&#xD;&#xA; the              active database and move them to the histo&#xD;&#xA;ry files. All&#xD;&#xA;             related transactions are purged without being a&#xD;&#xA;rchived.&#xD;&#xA;&#xD;&#xA;             If a transaction associated with a deactivated &#xD;&#xA;account              is detected during a posting, the user &#xD;&#xA;will be prompted &#xD;&#xA;             to reject the transaction or to reactive the ac&#xD;&#xA;count.&#xD;&#xA;             Re-activation is effected on-line and processed&#xD;&#xA; &#xD;&#xA;             according to the rules below :&#xD;&#xA;&#xD;&#xA;              i. If the physical record has not been transfe&#xD;&#xA;rred to the                  history file the account record&#xD;&#xA; status is reset to                  'Active' again&#xD;&#xA;              ii. If the physical record has already been tr&#xD;&#xA;ansferred to&#xD;&#xA;                  the history file, it shall be removed from&#xD;&#xA; the history&#xD;&#xA;                  file and re-created in the active account &#xD;&#xA;master.                   The account status is further rese&#xD;&#xA;t to 'Active'&#xD;&#xA;&#xD;&#xA; &#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="54" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="55" name="Account No">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="File No in YYNNNNNCSL format : YY-Year, C-Check digit, SL- Sales Sol"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="56" name="Client Matter No">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Display field on the file sequence no created for the Client ID"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="57" name="User Group">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="The security group of the User who created the file"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="58" name="Date Created">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Date on which the file is opened"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="59" name="Date Closed">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Date on which the File is closed or deactivated"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="60" name="Re-Opened">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Date on which the Case file is re-activated"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="61" name="Case Type">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="3 digit desc code of the type of case as defined by user"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="62" name="File Description">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Subject matter of the case. Desc will be printed on On-line receipt and bill"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="63" name="Conflict / Other Indices">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Name of the conflict party with reference to this matter"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="64" name="Client Ref">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Capture client code of old system"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="65" name="Matter Ref">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Capture Matter Reference of old system"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="66" name="Client ID">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="The Client ID code of the client for this matter."/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="67" name="Name Key #2">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Index key to facilitate accessing of files in case indexing program"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="68" name="Name Key #3">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Index key to facilitate accessing of files in Case Indexing program"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="69" name="Name Key #4">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Index key to facilitate accessing of files in Case Indexing program"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="70" name="Anti-Billed">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Updated by system when there are anticipated disbursments billed."/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="71" name="Anti-Received">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Updated by system whenever the anticipated amount is received"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="72" name="Alternate Key">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Building/Estate key to facilitate accessing of file in Case Indexing Program"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="73" name="Sol - cd">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Working solicitor code. Has to be updated whenever there is a change"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="74" name="Other - Work -sol">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Other solicitor working on this matter"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="75" name="Ex-solc">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Display the ex-solicitor that was working on the case"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="76" name="Clerk / Secr in charge">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Clerk / Secretary initial"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="77" name="Prtner">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Partner code on file"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="78" name="Senior Partner">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Senior Partner of this file (if any)"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="79" name="Stakeholder">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Stakeholder funds held. Updated through batch posting or online entry"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="80" name="Date placed">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Date the stakeholder fund is placed. Updated by system on posting receipt"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="81" name="Mature">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Relevant for Fixed Deposit Master File. Enter maturity date for FD"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="82" name="BCC">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Billing charge code. For on line consultation bill"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="83" name="FD Type code">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="User-defined FD group eg A-Auto Renewal, 3-Mature in 3 months etc"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="84" name="Remark">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Any remark regarding the file"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="85" name="Fees">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Display field on fees billed as updated by accounts"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="86" name="Status">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Status of file - Active or Deactivated"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="87" name="Dep">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Department linked through case type code"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="88" name="FD Principal">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Fixed Deposit principal amount"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="89" name="Expiry">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Date on which the stakeholder fund expires"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="90" name="Client Bank">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="The GL bank code in which the client's monies will be deposited"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="91" name="A/c Status">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Display the status of the File. Ie whether it is Active or C&#xD;&#xA;losed.&#xD;&#xA;A file will only have a closed status if the user has select&#xD;&#xA;ed the&#xD;&#xA;deactivated function button to close the file.&#xD;&#xA;&#xD;&#xA;User is suppose to deactivate a file when the file is manual&#xD;&#xA;ly closed.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="92" name="GST">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;GST Code &#xD;&#xA;&#xD;&#xA; Zero Rated : Tax at 0% &#xD;&#xA;       &#xD;&#xA;Non Tax : exempt from GST&#xD;&#xA;     &#xD;&#xA;Standard Rated : Tax at 3%&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="93" name="Case Type">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;A 3 digit description of the type of case as defined by user&#xD;&#xA;.&#xD;&#xA;User can press F5 or click zoom to obtain a list of case typ&#xD;&#xA;e&#xD;&#xA;created in the system. If there is any addition / amendment &#xD;&#xA;/ deletion required for the list, user need to inform the pe&#xD;&#xA;rson incharge to maintain the list.&#xD;&#xA;&#xD;&#xA;This list of case type is useful for the following purposes &#xD;&#xA;:&#xD;&#xA;&#xD;&#xA;  a. Enable user to generate report base on the case type co&#xD;&#xA;de       defined. Eg Solicitor Productivity by Case Type&#xD;&#xA;   b. Case Statistics on the no of files under the specified&#xD;&#xA; case&#xD;&#xA;        type.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="94" name="Department">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;The department code attached to the Case Type. &#xD;&#xA;&#xD;&#xA;This code is used for Reports that print statistics by depar&#xD;&#xA;tment code.&#xD;&#xA;&#xD;&#xA;If the user change the Case Type's Department code, all hist&#xD;&#xA;orical records have to be updated using a utility program&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="95" name="User Group">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;The Group attached to the User ID.  This code is significant&#xD;&#xA; only if the Security System is installed. &#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="96" name="Matter No">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Display the no of files in which the Client has with the Leg&#xD;&#xA;al Firm.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="97" name="Client Bank">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;To enter the Client Bank Code in General Ledger System.&#xD;&#xA;Ie the Bank A/c in which the client's monies will be deposit&#xD;&#xA;ed.&#xD;&#xA;&#xD;&#xA;If it is unknown at the point of creating the record, user c&#xD;&#xA;an entered the most commonly use Client's Bank code.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="98">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="99" name="Date Created">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;To capture the date in which the file is opened. It is defau&#xD;&#xA;lted to the System Date.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="100" name="Date Closed">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;This field is updated whenever the file is deactivated by th&#xD;&#xA;e user. It will capture the date in which deactivation is do&#xD;&#xA;ne by  the user.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="101" name="Date Re-Opened">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Reflects the date in which the deactivated file is re-activa&#xD;&#xA;ted.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="102" name="Subject Matter">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;To provide a brief description of the subject matter. The de&#xD;&#xA;scription should be meaningful as it will appear on the offi&#xD;&#xA;cial receipt and bill to be sent to Client&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="103" name="Client ID">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;A 10 alpha-numeric code assigned to the Client's name.&#xD;&#xA;Please refer to CLIENT MASTER MAINTENACE on the creation of &#xD;&#xA;CLIENT ID code.&#xD;&#xA;&#xD;&#xA;Entry is validated against the Client Masters record. If the&#xD;&#xA; Client Master record is not created, user can create the CL&#xD;&#xA;IENT ID code by clicking the CREATE ID button.&#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="104" name="ID #2">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Name Key 2 to 4 are index key which facilitate accessing of &#xD;&#xA;files in case indexing option. User is free to assign an ind&#xD;&#xA;ex which can be associated with the case and allow him/her t&#xD;&#xA;o access the relevant files with the indexes.&#xD;&#xA;&#xD;&#xA;The name key can also be used in situation in which the case&#xD;&#xA; involves more than one client. (Ie If the firm is in charge&#xD;&#xA; for both buyer and seller in a Purchase &amp; Mortgage Case), t&#xD;&#xA;he 2nd index key can be used as the other Client ID.&#xD;&#xA;&#xD;&#xA;Or in a mortgage case, the 2nd key can be used to assign the&#xD;&#xA; institution of loan. This would enable the user to list a l&#xD;&#xA;ist of all the cases involving the particular institution of&#xD;&#xA; loan.&#xD;&#xA;&#xD;&#xA;At the point of closing the file and transferring it to the &#xD;&#xA;warehouse, user can update the Name Key 4 to capture the war&#xD;&#xA;ehouse and box no in which the physical file is placed. If t&#xD;&#xA;his file is required to be access in the future, user can us&#xD;&#xA;e the case indexing program to determine which warehouse and&#xD;&#xA; which box the physical file is placed. &#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="105" name="ID #3">
+        <PropertyList model="HELP_INTERNAL">
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="106" name="ID #4">
+        <PropertyList model="HELP_INTERNAL">
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="107" name="Alt Key">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Can be used as Building / Estate / Project Key. It facilitat&#xD;&#xA;es accessing of files by building / Estate in cases which in&#xD;&#xA;volves any building / estate.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="108" name="Client Ref">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;To capture old Client Code before computerisaton.&#xD;&#xA;&#xD;&#xA;User can use the Case Indexing Program to access the file by&#xD;&#xA; specifying the old client code in situation in which the on&#xD;&#xA;ly information available on hand is the old client code&#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="109" name="File Ref">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;To catpure the old matter / file reference before computeris&#xD;&#xA;ation. &#xD;&#xA;&#xD;&#xA;User can use this old matter reference to retrieve the file &#xD;&#xA;and get the new computerise file reference.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="110" name="Sr Partner">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Senior Partner in which the file belongs to&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="111" name="Partner">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Partner in which the file belongs to&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="112" name="Solicitor">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Working lawyer code. This code will serve as the default sol&#xD;&#xA; code for updating solicitor's performance statistics. If th&#xD;&#xA;ere is any change in the lawyer handling the case, the user &#xD;&#xA;MUST change the sol code in the account master. Else, the so&#xD;&#xA;licitors performance will not reflect the true picture of th&#xD;&#xA;e productivity of individual solicitor.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="113" name="Secretary">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Name of the secretary handling the file.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="114" name="Other Work Solcs">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;To capture other working lawyers co-handling the case.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="115" name="Conflict / Other Indices">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Relevant for certain cases in which a third party may create&#xD;&#xA; a conflict of interest of the legal firm were to service or&#xD;&#xA; accept his case.&#xD;&#xA;&#xD;&#xA;Eg Divorce case - the wife first approach the legal firm for&#xD;&#xA; filing of divorce. Hence, the husband becomes a party with &#xD;&#xA;conflict of interest and the legal firm should not service o&#xD;&#xA;r accept his case.&#xD;&#xA;&#xD;&#xA;Other party that may pose a conflict fo interest includes : &#xD;&#xA;the clients whom the solicitor wants to take instruction fro&#xD;&#xA;m, the defendant the solicitor wishes to sue etc.&#xD;&#xA;&#xD;&#xA;This field is used in the conflict of Interest Scan program &#xD;&#xA;to allow user to view on screen any party that is capable of&#xD;&#xA; causing conflict of interest.&#xD;&#xA;&#xD;&#xA;The conflict of interest scan program will also scan the cli&#xD;&#xA;ent's database as created in the Client's Master Maintenance&#xD;&#xA; and the defendants / Plaintiff fields as entered in the Cas&#xD;&#xA;e Management File / Master Maintenance (If purchased)&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="116" name="Stakeholder Amount">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Stakeholder amount deposited by the client. This field is up&#xD;&#xA;dated by the system through Batch Posting or On-Line receipt&#xD;&#xA; when the user specified the amount received as stakeholder &#xD;&#xA;amount. In situation in which the user is not able to specif&#xD;&#xA;y whether the amount received is for stakeholder or normal a&#xD;&#xA;dvance at the point of entry, he is allowed to amend this fi&#xD;&#xA;eld upon confirmation to reflect the true position.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="117" name="Stakeholder Date Placed">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Date in which the Stakeholder amount is placed. The date is &#xD;&#xA;updated by the system.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="118" name="Stakeholder Expiry">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Date in which the Stakeholder amount will expire.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="119" name="Remarks">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Enter any remark concern.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="120" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="121" name="Status Maintenance">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;This program allows user to create Case Status / Time Cost M&#xD;&#xA;aster record for any of the Account Master file created in A&#xD;&#xA;ccount Master Maintenance. &#xD;&#xA;&#xD;&#xA;CASE STATUS&#xD;&#xA;============&#xD;&#xA;Each case file is associated with a case type and are indivi&#xD;&#xA;dually monitored. The user will use this program to update t&#xD;&#xA;he status / time cost of the case file under their charge.Us&#xD;&#xA;er may selectivey inquire or generate hard copies of cases d&#xD;&#xA;ue for attention. Cases due for attention in a future date c&#xD;&#xA;an be obtained through enquiry programs. Exception reports o&#xD;&#xA;n cases not being attended can also be printed.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;TIME COST&#xD;&#xA;=========&#xD;&#xA;This prgram allows user to review or enter  time spent on ea&#xD;&#xA;ch job file.  The information on the total time spend on the&#xD;&#xA; each file would help the user to determine the amount to bi&#xD;&#xA;ll client.&#xD;&#xA;Work Sheet summary can be printed and attach to the bill whi&#xD;&#xA;ch helps to justify the amount of Fee charged to Client.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;FILE / ACCT NO&#xD;&#xA;=============&#xD;&#xA;This is the Account Master file reference for the status rec&#xD;&#xA;ord to  be created. The File / Acct No must exist in the Acc&#xD;&#xA;ount Master file.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="122" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="123" name="Client ID / Name">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;This is the Client ID and name attached to the Account Maste&#xD;&#xA;r record. User is allowed to change the CLIENT ID to any of &#xD;&#xA;the Index name key within the Account Master record. The new&#xD;&#xA; Client ID must be a valid Client Master record created usin&#xD;&#xA;g the Client Master Maintenance.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="124" name="Case Type">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;This is the case type associated when user create the Accoun&#xD;&#xA;t Master record in Account Master Maintenance program. User &#xD;&#xA;is not allowed to amend the Case type field in the Status Ma&#xD;&#xA;ster record. If the case type is wrong, user will have to am&#xD;&#xA;end the Account Master record and the case type for the Stat&#xD;&#xA;us record will be changed accordingly.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="125" name="Remark / Suit No">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;User can capture the Suit No or any remark for future refere&#xD;&#xA;nce .&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="126" name="Status">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;This field reflects the status of this status master record.&#xD;&#xA;&#xD;&#xA;Three type of status exist :&#xD;&#xA;    a. Active - Implies that the case is not closed&#xD;&#xA;    b. Closed - Implies that the case is to be closed and th&#xD;&#xA;at the         status record is to be tranferred to history &#xD;&#xA;files when the         year end routine is run&#xD;&#xA;    c.  Purge - Implies that the case is to be purged and th&#xD;&#xA;at the          status record will not be transferred to his&#xD;&#xA;tory files when          the year end is run.&#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="127" name="Dated Created">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Reflects the date in which this status record is creaed.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="128" name="Created by">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Reflects who is the user that create this status master.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="129" name="Reference / Card No">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;For user to enter  card / account / hire purchase / loan or &#xD;&#xA;any reference.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="130" name="Account Type">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;For Litigation case classification.  &#xD;&#xA;&#xD;&#xA;User can further group the  debt collection case into &#xD;&#xA;    . Account&#xD;&#xA;    . Card&#xD;&#xA;    . Card &amp; Account&#xD;&#xA;    . Hire Purchase&#xD;&#xA;    . Loan&#xD;&#xA;    . Ready Credit&#xD;&#xA;    . Others&#xD;&#xA;&#xD;&#xA;The information provided will allow user to retrieve statist&#xD;&#xA;ics on the break down of the specified type of accounts for &#xD;&#xA;reporting.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="131" name="Debt Amount">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Relevant for debt collection in which user can capture the D&#xD;&#xA;ebt  Amount owing by the Client.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="132" name="Statement Date">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Allow user to capture the date of Statement of Claim or Lett&#xD;&#xA;er of Demand&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="133" name="No of Defendants">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;To specify the no of plaintiff and defendants involved in th&#xD;&#xA;is case.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="134" name="Period to LOD">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;To capture the period for payment specified in letter of dem&#xD;&#xA;and sent. Eg 7 days&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="135" name="Est Legal Cost">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Allow user to capture the estimated legal cost for this case&#xD;&#xA;. Amount entered in this field will be used to compare again&#xD;&#xA;st total billable time cost. If total billable time cost is &#xD;&#xA;greater than estimated legal cost, a message 'Time cost' exc&#xD;&#xA;eeded the estimated  ###### !' will be displayed.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="136" name="Expected Fees">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;To capture the fee that the solicitor expect to receive.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="137" name="Plaintiff / Defendant 1 to 4">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;For entering the name of defendent and plaintiff. To identif&#xD;&#xA;y whether a person is the defendent or plaintiff, it is reco&#xD;&#xA;mmended to put a (D) or (P) beside the name entered.&#xD;&#xA;&#xD;&#xA;The name entered will be scanned when the CONFLICT OF INTERE&#xD;&#xA;ST SCAN program is activated.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="138" name="WIP Unbilled">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;This field is relevant for On-Line Time Cost Billing feature&#xD;&#xA;.&#xD;&#xA;&#xD;&#xA;This field captured the time cost amount in which user choos&#xD;&#xA;e not to bill during On-Line Billing.&#xD;&#xA;&#xD;&#xA;At the point of preparing a on-line bill, user would enter t&#xD;&#xA;he Billing Period and retrieved all the time cost transactio&#xD;&#xA;ns that falls within the period specified. The total time co&#xD;&#xA;st billable is computed base on the period specified. Howeve&#xD;&#xA;r, user can specified a lesser amount to bill in the current&#xD;&#xA; bill and kept the difference as Work-In-Progress to be carr&#xD;&#xA;ied forward in next billing.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="139" name="Total Waival">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;This is applicable for On-Line Time Cost Billing feature.&#xD;&#xA;&#xD;&#xA;This field captured the cumulative amount in which the user &#xD;&#xA;has specified to be waived when she prepare On-Line Billing.&#xD;&#xA; Any waival for the current on-line bill will be added to th&#xD;&#xA;is field.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="140" name="Title">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Capture the title of the party &#xD;&#xA;  . Corporate&#xD;&#xA;  . Mr&#xD;&#xA;  . Mrs&#xD;&#xA;  . Miss&#xD;&#xA;  . Mdm&#xD;&#xA;  . M/S&#xD;&#xA;&#xD;&#xA;This field is provided so that user need not capture the tit&#xD;&#xA;le under the plaintiff / Defendent name.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="141" name="Remark / Suit no.">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Suit no. for Litigation matter"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="142" name="Reference / Card No.">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Credit Card / Account / Hire Purchase / Loan or any other reference"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="143" name="Debt Amt">
+        <PropertyList model="HELP_PROMPT"/>
+      </Help>
+      <Help Type="P" id="144" name="Statement Date">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Date of Letter of Demand or Statement of Claim"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="145" name="Period -LOD">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Period for payment specified in Letter of Demand"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="146" name="Estimated Legal Cost">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Estimated total legal cost"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="147" name="Expected Fees">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Expected fees amount"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="148" name="Party No.">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Number of parties involved in the matter"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="149" name="Dfn / Plnf">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Name of the Defendant or Plaintiff"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="150" name="Title">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Title of the party - Corp, Mr, Mrs, Miss, Mdm or M/S"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="151" name="WIP unbilled">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Time cost work-in-progress not billed. Updated through on-line billing"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="152" name="Time Cost - Waived">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Time cost waived through on-line billing"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="153" name="Account Type">
+        <PropertyList model="HELP_PROMPT"/>
+      </Help>
+      <Help Type="I" id="154" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="155" name="Name &amp; Address Maintenance">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;This program allows the user to create and maintain client's&#xD;&#xA; addresses. If the standard name field in Account Master Mai&#xD;&#xA;ntenance is not sufficient to key in the full name, user can&#xD;&#xA; further extend the name under this program. &#xD;&#xA;&#xD;&#xA;This extended name is used in On-Line Billing to print Clien&#xD;&#xA;t's name and address.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;CLIENT ID &#xD;&#xA;=========&#xD;&#xA;The Client ID used in Client Master Maintenance. &#xD;&#xA;If chained from Client Master Maintenance program, the Clien&#xD;&#xA;t ID is displayed by the system and the mode of function is &#xD;&#xA;the same as the mode of function for Client Master Maintenan&#xD;&#xA;ce.&#xD;&#xA;&#xD;&#xA;If user select the option Client Name/Address Maintenance di&#xD;&#xA;rectly without going through Client Master Maintenance progr&#xD;&#xA;am. than user will need to specify create mode if she is cre&#xD;&#xA;ating a new client.&#xD;&#xA; &#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="156" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="157" name="Client ID">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="The Client ID used in Client Master Maintenance"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="158" name="Long Name">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="The extended name of the Client"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="159" name="Contact Names">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Names of the contact person. Pulled out as Attention Party in on line billing"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="160" name="Address set #1 to #4">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Client's Address to bill."/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="161" name="Long Name">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;If chained form Client Master Maintenance program, the Clien&#xD;&#xA;t name is defaulted to the same as that created in Client Ma&#xD;&#xA;ster Maintenance. However, user is allowed to further extend&#xD;&#xA; the name if the field in Client Master maintenance is not s&#xD;&#xA;ufficient to key in the full name.&#xD;&#xA;&#xD;&#xA;This name will be used to print on the On-line bill.&#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="162" name="Contact Names">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Allow user to capture the name of the person to contact shou&#xD;&#xA;ld this be a corporate client.&#xD;&#xA;&#xD;&#xA;The name will be retrieved as the Attention party in the On-&#xD;&#xA;Line Billing&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="163" name="Address set #1 to #4">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Allow user to enter up to a maximun of four set of address. &#xD;&#xA;User can select any of the four set of address during on On-&#xD;&#xA;Line Billing.&#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="164" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="165" name="Case Management Activities">
+        <PropertyList model="HELP_INTERNAL">
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="166" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="167" name="Line #">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;ADD new transaction&#xD;&#xA;=================&#xD;&#xA;To add new case status transaction, press &lt;F4> or &lt;Ctrl C>.A&#xD;&#xA; new line number will be generated by the system. This line &#xD;&#xA;number is computed base on the last case status / time cost &#xD;&#xA;transaction line number plus 3. &#xD;&#xA;&#xD;&#xA;User can position the pointer at any line no and press &lt;F4> &#xD;&#xA;to add a new case status transaction. However, at subsequent&#xD;&#xA; retrieval the transaction is sorted base on the Line # spec&#xD;&#xA;ified.&#xD;&#xA;&#xD;&#xA;To move to the end of the table, user can use the menu bar &lt;&#xD;&#xA;End of Table> button.&#xD;&#xA;&#xD;&#xA;DELETE transaction &#xD;&#xA;================&#xD;&#xA;To delete any case status transaction,  press &lt;F3> or &lt;Ctrl &#xD;&#xA;D>.&#xD;&#xA;The line will be removed.&#xD;&#xA;&#xD;&#xA;AMEND transaction&#xD;&#xA;================&#xD;&#xA;Press &lt;TAB> to move to next field. &lt;Shift TAB> to move to pr&#xD;&#xA;eviousl field.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="168" name="Event">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;The specify a EVENT number so as to track the flow of events&#xD;&#xA; for the case.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="169" name="Particulars">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;To describe the activities that is carried out or is to be c&#xD;&#xA;arried out for the date specified.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="170" name="Type">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Can press &lt;F5> or click on zoom button to view the list of A&#xD;&#xA;ppointment Type defined to be captured.&#xD;&#xA;&#xD;&#xA;User can identify the different appointment type that they w&#xD;&#xA;ant to monitor for the purpose of printing expiry reports :E&#xD;&#xA;g of appointment type list&#xD;&#xA;   A - Appointment Date&#xD;&#xA;   B - Bill of Sale renewal&#xD;&#xA;   C - Comment entry&#xD;&#xA;   D - Date entry&#xD;&#xA;   E - Caveat Expiry&#xD;&#xA;   F - Fixed Deposit Renewal&#xD;&#xA;   L - Limitation period&#xD;&#xA;   R - Due for review&#xD;&#xA;   T - Trademark renewal&#xD;&#xA;   W - Writ of Summon&#xD;&#xA;   X - Close file&#xD;&#xA;   &#xD;&#xA;The system allow solicitor to retrieve events by Appointment&#xD;&#xA; Type in the following program :&#xD;&#xA;   . Diary Management&#xD;&#xA;   . Calendar of Events&#xD;&#xA;   . Expiry report&#xD;&#xA;&#xD;&#xA;By catorising the event into the appointment type, user will&#xD;&#xA; be able to retrieve the specified type of appointment in th&#xD;&#xA;e above program.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="171" name="Solicitor">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Enter the solicitor that worked on the case if it is a pass &#xD;&#xA;event .&#xD;&#xA;Enter the solicitor that is to take note if it is a future e&#xD;&#xA;vent.&#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="172" name="Time">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Enter the Time of the appointment.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="173" name="Instructor">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Skip this field.&#xD;&#xA;&#xD;&#xA;Relevant for Dial In module only.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="174" name="Instructed By">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;Skip this field.&#xD;&#xA;&#xD;&#xA;Relevant for Dial In module only.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="175" name="Payment #">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;For Debt collection case.&#xD;&#xA;&#xD;&#xA;User can track the no of installment payment paid by debtor.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="176" name="Amount">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Relevant for Debt collection case.&#xD;&#xA;&#xD;&#xA;User can enter the Amount to be collected as the first statu&#xD;&#xA;s event.  The subsequent installment payment amount will be &#xD;&#xA;catpured as a negative figure.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="177" name="Procedure Import">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Instead of keying in events as it happen, user can pre-defin&#xD;&#xA;ed standard stages entail in the various case type. This is &#xD;&#xA;a one time creation and a maximun of 24 stages are allowed.H&#xD;&#xA;ence, for every new status file, the user can import the sta&#xD;&#xA;ndard stages created in the case type table.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="178" name="Note Pad">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;For solicitor to write comment or reminder note&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="179" name="Solicitor  Instruction">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;Relevant for Dial In module. In which the Dial in party will&#xD;&#xA; indicate what is to be done or carried out.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="180" name="Delete Range">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;This function allow user to specify a range of line to be de&#xD;&#xA;leted.&#xD;&#xA;&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="181" name="Re-Organize Lines">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="&#xD;&#xA;&#xD;&#xA;This function allow user to re-organise the line numbering.&#xD;&#xA;"/>
+          <X id="21" val="260"/>
+          <Width id="23" val="240"/>
+          <Height id="24" val="216"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="182" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="183" name="Billing System">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="184" name="==============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="185" name="Date">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="Date in the format of 2-digit day, 2-digit&#xD;&#xA; month and 4-digit year, separated by '/' &#xD;&#xA;on display not to be included in entry.&#xD;&#xA;&#xD;&#xA;Not mandatory for input.  Can be totally d&#xD;&#xA;isabled for entry via setting made to the &#xD;&#xA;billing system printing parameters.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="186" name="Description">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="A Single or Multi-line desciption.&#xD;&#xA;&#xD;&#xA;Simply type on the line where the cursor i&#xD;&#xA;s positioned to enter a single line descri&#xD;&#xA;ption.  Maximum no. of characters allowed &#xD;&#xA;is 50.&#xD;&#xA;&#xD;&#xA;Enter Multi-line description in the scratc&#xD;&#xA;h pad.  The scratch pad can be loaded by c&#xD;&#xA;licking its icon mounted on the toolbar.  &#xD;&#xA;In modify mode, the scratch pad can only b&#xD;&#xA;e loaded if the cursor is position at the &#xD;&#xA;start of a multi-line description.  Maximu&#xD;&#xA;m no. of characters allowed is 4096.&#xD;&#xA;&#xD;&#xA;Zoom to pick standard desciption.&#xD;&#xA;"/>
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="187" name="Text">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="A user define text or a description of the&#xD;&#xA; type of total to be computed and placed i&#xD;&#xA;n the column by the system.  The latter's &#xD;&#xA;background is shaded in white.&#xD;&#xA;&#xD;&#xA;Entry is allowed only for user define text&#xD;&#xA;.  As for the total , Zoom to pick from li&#xD;&#xA;st.&#xD;&#xA;&#xD;&#xA;The list also offers a change to amount at&#xD;&#xA;tribute.  The exact type can be pick from &#xD;&#xA;its associated list.&#xD;&#xA;"/>
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="188" name="Amount">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="A numeric value.&#xD;&#xA;&#xD;&#xA;To change the amount type, simply Zoom int&#xD;&#xA;o pick list.  The pick list offers:&#xD;&#xA;&#xD;&#xA;     .  A change to alpha attribute and it&#xD;&#xA;s&#xD;&#xA;           associated pick list&#xD;&#xA;     .  Definitions of type for amount to &#xD;&#xA;be                  manually entered&#xD;&#xA;     .  Standard tables of amount &#xD;&#xA;           computation&#xD;&#xA;     .  Extraction of amount from&#xD;&#xA;           databases transaction&#xD;&#xA;&#xD;&#xA;"/>
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="189" name="GST">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="Goods and Services Tax.&#xD;&#xA;&#xD;&#xA;This is to indicate whether the amount ent&#xD;&#xA;ered  is taxable or not.&#xD;&#xA;&#xD;&#xA;Type 'Y' for Yes.  'N' for No.&#xD;&#xA;"/>
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="190" name="File Number">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="File or Account number.  Refer to Legal_Pa&#xD;&#xA;c system for the composition structure of &#xD;&#xA;this code.&#xD;&#xA;&#xD;&#xA;Enter or Zoom to pick from list.&#xD;&#xA;&#xD;&#xA;System is programed to prohibit entry or e&#xD;&#xA;nsure the availability of this code during&#xD;&#xA; entry depending on amount type.  If manda&#xD;&#xA;tory, it will first default a file number &#xD;&#xA;subject to change by the user.&#xD;&#xA;"/>
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="191" name="Disbursement Description">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Zoom to enter or edit more than 1 line description"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="192" name="Memo Text">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Enter or Zoom to pick standard text.  Press &lt;F2> to undo"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="193" name="Bill To Import">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Zoom To Import Bill"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="194" name="Bill To Pick">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Enter or Import/Zoom To Pick Bill For Modification"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="195" name="Line Entry Date">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Enter or click on Calendar icon to select date"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="196" name="Sort No">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Enter Entry No for Output (Repeat same to consolidate.  Skip to bypass)"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="197" name="GST">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="'Y' = Yes, 'N' denotes non GSTable."/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="198" name="Bill Time Cost?">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Enter 'Y' to bill or 'W' to waive or 'N' to exclude"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="199" name="Start Block Line No">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Enter or Zoom to pick starting block line no."/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="200" name="End Block Line No">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Enter or Zoom to pick ending block line no."/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="201" name="Before or After Line No">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Select before or after the next at entry line no to position"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="202" name="Position At Line No">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Enter or Zoom to pick entry line no to position before or after"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="203" name="Mark Start Position For Block">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Zoom To Position @ Line And Select Start Of Block To Cut"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="204" name="Mark End Position For Block">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Zoom To Position @ Line And Select End Of Block To Cut"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="205" name="Before Or After New Position">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Move Block Cut Before Or After Line To Paste?"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="206" name="Mark Location To Position">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Zoom To Position @ Line And Select Location To Paste"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="207" name="Pick Document No">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Zoom To Pick Number"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="208" name="Pick Time Cost">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Enter 'Y' to pick, 'W' to waived or 'N' to skip"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="209" name="=============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="210" name="General Ledger">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="211" name="=============================">
+        <PropertyList model="HELP_INTERNAL">
+          <Y id="22" val="2"/>
+          <Color id="51" val="4"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="212" name="Line Type">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="Enter 'H' for Heading, 'D' for Detail, 'R' for Reverse Detail Representation"/>
+        </PropertyList>
+      </Help>
+    </HelpScreens>
+  </HelpRepository>
+
+</Application>
